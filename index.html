@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning bootstrap v5 with sass</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 1 - THE NAVBAR SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+<nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">faq</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+        <!-- <button type="button" class="rounded-pill btn-rounded">
+          +1 728365413
+          <span>
+            <i class="fas fa-phone-alt"></i>
+          </span>
+        </button> -->
+      </div>
+    </div>
+  </nav>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            START SECTION 2 - THE INTRO SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- START THE CONTENT FOR THE INTRO  -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">
+          <span class="display-2--intro">Hey!, I'm Patrick</span>
+          <span class="display-2--description lh-base">
+            this is a multi-purpose responsive layout created with bootstrap v5. 
+            (here your can place your description text)
+          </span>
+        </h1>
+        <button type="button" class="btn rounded-pill btn-lg btn-outline-light">Get in Touch
+          <span><i class="fas fa-long-arrow-alt-right"></i></span>
+        </button>
+      </div>
+      <!-- START THE CONTENT FOR THE VIDEO -->
+      <div class="col-md-6 intros order-1 text-end">
+        <div class="video-box">
+          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+          <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+            <span>
+              <i class="fas fa-play-circle"></i>
+            </span>
+            <span class="border-animation border-animation--border-1"></span>
+            <span class="border-animation border-animation--border-2"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+
+  <section id="services" class="services-section mb-5">
+<div class="container">
+  <div class="row text-center mb-5">
+    <h1 class="display-3 fw-bold">Our Services</h1>
+    <div class="heading-line mx-auto"></div>
+    <p class="fw-light p-3">
+      Lorem ipsum dolor sit amet consectetur architecto magni, 
+      dicta maxime laborum
+    </p>
+  </div>
+</div>
+<!-- START THE CONTENT FOR THE SERVICES  -->
+<div class="container">
+  <div class="row mt-5">
+				<div class="col-md-6 col-lg-4">
+					<div class="services bg-white rounded-2 shadow p-4">
+						<div class="icon d-flex align-items-center justify-content-center shadow-sm">
+              <span><i class="fas fa-skating"></i></span>
+            </div>
+						<div class="service-body">
+							<h3 class="display-2--stitle mb-3">skating</h3>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+              <a href="#">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+					</div> 
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="services d-block bg-white rounded-2 shadow p-4">
+						<div class="icon shadow d-flex align-items-center justify-content-center">
+              <span><i class="fas fa-skiing"></i></span>
+            </div>
+						<div class="service-body">
+							<h3 class="display-2--stitle mb-3">skiing </h3>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+            <a href="#">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+					</div> 
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="services d-block bg-white rounded-2 shadow p-4">
+						<div class="icon shadow d-flex align-items-center justify-content-center">
+              <span><i class="fas fa-swimmer"></i></span>
+            </div>
+						<div class="service-body">
+							<h3 class="display-2--stitle mb-3">swimming</h3>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+            <a href="#">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div> 
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="services d-block bg-white rounded-2 shadow p-4">
+						<div class="icon shadow d-flex align-items-center justify-content-center">
+              <span><i class="fas fa-hiking"></i></span>
+            </div>
+						<div class="service-body">
+							<h3 class="display-2--stitle mb-3">hiking</h3>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+            <a href="#">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+					</div> 
+        </div>
+        <div class="col-md-6 col-lg-4">
+					<div class="services bg-white rounded-2 shadow p-4">
+						<div class="icon d-flex align-items-center justify-content-center shadow-sm">
+              <span><i class="fas fa-campground"></i></span>
+            </div>
+						<div class="service-body">
+							<h3 class="display-2--stitle mb-3">Camping</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+              <a href="#">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+					</div> 
+        </div>
+        <div class="col-md-6 col-lg-4">
+					<div class="services bg-white rounded-2 shadow p-4">
+						<div class="icon d-flex align-items-center justify-content-center shadow-sm">
+              <span><i class="fas fa-walking"></i></span>
+            </div>
+						<div class="service-body">
+							<h3 class="display-2--stitle mb-3">Walk & Running</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+              <a href="#">Learn more <i class="fas fa-long-arrow-alt-right"></i></a>
+              </div>
+            </div> 
+          </div>    
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                       START SECTION 3 - THE SERVICES  
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="services" class="about-us mt-5 mb-5">
+  <div class="container">
+    <div class="row text-white mb-3">
+      <div class="col-md-6 content-padding col-lg-5">
+        <div class="content">
+          <h3 class="display-4">About us</h3>
+          <div class="heading-line"></div>
+          <p class="lh-lg pt-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam velit veritatis qui, dolorum molestias laboriosam, ex porro recusandae sunt consequuntur.
+          </p>
+          <button type="button" class="btn btn-lg btn-outline-light">learn more</button>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-7 mt-5">
+        <!-- <div class="aboutus composition">
+          <img src="images/campanies/bg-1.jpg" alt="photo 1" class="col-md-6 img-fluid shadow composition__photo composition__photo--p1">
+          <img src="images/campanies/bg-2.jpg" alt="photo 2" class="col-md-6 img-fluid shadow composition__photo composition__photo--p2">
+          <img src="img/nat-3-large.jpg" alt="photo 3" class="composition__photo composition__photo--p3"> -->
+        <!-- </div>    --> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                            START SECTION 5 - THE PORTFOLIO  
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="portfolio" class="portfolio">
+<div class="container-fluid">
+  <div class="row text-center mt-5">
+    <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+    <div class="heading-line mx-auto"></div>
+    <p class="p-3 d-sm-block">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+    </p>
+  </div>
+  <!-- FILTER BUTTONS  -->
+  <div class="row mt-5 mb-4 g-3 text-center">
+    <div class="col-md-12">
+      <button class="btn btn-outline-primary" type="button">All</button>
+      <button class="btn btn-outline-primary" type="button">websites</button>
+      <button class="btn btn-outline-primary" type="button">design</button>
+      <button class="btn btn-outline-primary" type="button">mockup</button>
+    </div>
+  </div>
+
+  <!-- START THE PORTFOLIO ITEMS  -->
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 1</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 2</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 3</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 4</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 5</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 6</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 7</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 8</h4>
+            <p>category project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="portfolio-box shadow">
+        <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
+        <div class="portfolio-info">
+          <div class="caption">
+            <h4>project name goes here 9</h4>
+            <p>category project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                       START SECTION 3 - THE SERVICES  
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="testimonials" class="testimonials mt-5 mb-5">
+  <div class="container">
+    <div class="row mt-3 text-center">
+       <h1 class="display-3 fw-bold text-capitalize">testimonials</h1>
+       <div class="heading-line mx-auto"></div>
+       <p class="text-capitalize">What our clients are saying</p>     
+    </div>
+    <div class="row rounded-start rounded-4 mt-5 mb-3">
+     <div class="col-lg-5 bg-white border-5 p-4">
+      <div class="w-100 text-center text-primary pt-5">
+        <div class="quote-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat-square-quote" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-7 gradient shadow p-4">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- CAROUSEL ITEM 1 -->
+            <div class="carousel-item active">
+              <!-- testimonials card  -->
+              <div class="testimonials__card text-white p-4">
+                <p class="lh-base pb-3">
+                  <i class="fas fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                  <i class="fas fa-quote-right"></i>               
+                </p>
+              </div>
+              <!-- client picture  -->
+              <div class="testimonials__picture">
+                <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+              </div>
+              <!-- client name & role  -->
+              <div class="testimonials__name">
+                <h3>Patrick Muriungi</h3>
+                <p class="fw-light">CEO & founder</p>
+              </div>
+            </div>     
+            <!-- CAROUSEL ITEM 2 -->
+            <div class="carousel-item">
+              <!-- testimonials card  -->
+              <div class="testimonials__card text-white p-4">
+                <p class="lh-base pb-3">
+                  <i class="fas fa-quote-left"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                  <i class="fas fa-quote-right"></i>                
+                </p>
+              </div>
+              <!-- client picture  -->
+              <div class="testimonials__picture">
+                <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+              </div>
+              <!-- client name & role  -->
+              <div class="testimonials__name">
+                <h3>Joy Marete</h3>
+                <p class="fw-light">Finance Manager</p>
+              </div>
+            </div>                   
+          </div>
+            <div class="text-center">
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          </button>
+          <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                         START SECTION 6 - THE FOOTER  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+<!-- Footer -->
+<footer class="footer"  id="contact">
+  <div class="container">
+    <div class="row footer-sm text-center pt-5 mb-3">
+      <div class="col-lg-2 shadow col-md-4 col-sm-6 mb-3">
+        <h6 class="text-uppercase fw-bold">
+          <a href="#!">
+            <i class="fab fa-facebook-f fa-lg ms-md-5 ms-3"> </i> Facebook
+          </a>
+        </h6>
+      </div>
+      <div class="col-lg-2 shadow col-md-4 col-sm-6 mb-3">
+        <h6 class="text-uppercase fw-bold">
+          <a href="#!">
+            <i class="fab fa-twitter fa-lg ms-3"> </i> Twitter
+          </a>
+        </h6>
+      </div>
+      <div class="col-lg-2 shadow col-md-4 col-sm-6 mb-3">
+        <h6 class="text-uppercase fw-bold">
+          <a href="#!">
+            <i class="fab fa-github fa-lg ms-3"> </i> Github
+          </a>
+        </h6>
+      </div>
+      <div class="col-lg-2 shadow col-md-4 col-sm-6 mb-3">
+        <h6 class="text-uppercase fw-bold">
+          <a href="#!">
+            <i class="fab fa-instagram fa-lg ms-3"> </i> Instagram
+          </a>
+        </h6>
+      </div>
+      <div class="col-lg-2 shadow col-md-4 col-sm-6 mb-3">
+        <h6 class="text-uppercase fw-bold">
+          <a href="#!">
+            <i class="fab fa-linkedin-in fa-lg ms-3"> </i> Linkedin
+          </a>
+        </h6>
+      </div>
+      <div class="col-lg-2 shadow col-md-4 col-sm-6 mb-3">
+        <h6 class="text-uppercase fw-bold">
+          <a href="#!">
+            <i class="fab fa-behance fa-lg ms-3"> </i> behance
+          </a>
+        </h6>
+      </div>
+    </div>
+    <hr class="bg-white" style="margin: 0 10%;">
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+      <div class="col-md-10 col-12 mt-5 p-3 text-white">
+        <p class="lh-lg mb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            <button class="btn btn-outline-primary" type="button">+254 0728 365413 </button>
+            <button class="btn btn-outline-primary" type="button"> info@company.com
+            </button>
+      </div>
+    </div>
+    <hr class="clearfix d-md-none bg-white" style="margin: 10% 15% 5%;">
+    <div class="row pb-3"> 
+  </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom pt-5 pb-5 text-center">  
+    <div class="footer-bottom__copyright d-md-inline-block">
+    &COPY; Copyright 2021 <a href="#">Company</a> | Created by <a href="http://twitter.com/itsmuriungi" target="_blank">Muriungi</a>
+    </div>
+  </div>
+</footer>
+<!-- Footer -->
+
+<!-- BACK TO TOP BUTTON  -->
+<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+<i class="fas fa-chevron-up"></i>
+</a>
+
+    <script src="/assets/vendors/js/glightbox.min.js"></script>
+
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+});
+    
+    </script>
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
