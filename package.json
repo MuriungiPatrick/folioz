@@ -1,16 +1,16 @@
 {
-  "name": "Clinico",
+  "name": "folioz",
   "version": "1.0.0",
-  "description": "Clinico is a free template appropriate for clinic and hospital websites",
+  "description": "folioz is a free template appropriate for portfolio and campany websites",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:public/css"
   },
   "keywords": [
     "Patrick-muriungi",
-    "clinic template",
-    "hospital",
-    "clinic",
+    "portfolio template",
+    "services",
+    "portfolio",
     "free template"
   ],
   "author": "Patrick Muriungi",
