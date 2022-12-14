@@ -3,12 +3,13 @@
 ### [Live Preview](https://muriungipatrick.github.io/folioz)
 
 
-
-
 # Folioz
  A clean, modern and responsive Template supremely crafted for portfolio and latest projects websites.
 
 It’s built on the Bootstrap v5+ framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices With a clean design, this Folioz template is ready to impress your audience.
+
+![folioz-website](https://user-images.githubusercontent.com/11283502/207561439-852f50e7-aa5a-4652-8295-758afa47047b.png)
+
 
 ### Features
 
@@ -21,7 +22,7 @@ It’s built on the Bootstrap v5+ framework. it is a one page template comprisin
 - Bootstrap modal
 - Onepage Landing page design
 - Testimonials with carousel
-- Frequently asked questions(accordion)
+- Frequently asked questions(accordion with collapse plus/dash icon)
 - Bootstrap icons
 - Google fonts
 - W3C valid
@@ -53,14 +54,17 @@ You can use this template to make a website for your clients and get paid. but D
 Better still feel free to [Buy me a coffee ($10)](https://www.buymeacoffee.com/muriungipatrick) if you’d like to show your appreciation for the hard work. Although any amount you feel like contributing is, of course, highly appreciated! 
 [Buy me Coffee](https://www.buymeacoffee.com/muriungipatrick)
 
-###<!--[if lt IE 9]><![endif]--> Attribution Link
+### Attribution Link
+
 You're free to keep or remove the attribution link (Created By Patrick Muriungi) in the footer.
 
 ### Note
+
 If you find this template useful and you'd like to extend the template like customizing and adding more pages to the template for your specific needs, am here and I can customize the template for $25 only.
 
-### Template screenshot 
+### Template Full screenshot 
 
+![folioz-desktop-screenshot-full](https://user-images.githubusercontent.com/11283502/207561826-b9e66dbe-a933-4234-b1cc-f39605c5696b.jpg)
 
 
 
