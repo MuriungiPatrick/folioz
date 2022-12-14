@@ -685,8 +685,9 @@ START THE 1ST COLUMN  COL-MD-7
             </div>                             
         <div class="col-lg-5 col-sm-12">   
           <div class="start justify-content-center">
-            <a href="mailto:muriungipatrick@gmail.com" 
-            class="btn btn-primary w-100 mb-2 p-3">
+            <a 
+            class="btn btn-primary w-100 mb-2 p-3" data-bs-toggle="modal" 
+          data-bs-target="#exampleModal-1">
               <h5><i class="bi bi-hand-thumbs-up"></i> Get Started</h5> 
             </a>  
             <a href="#" 
@@ -698,6 +699,70 @@ START THE 1ST COLUMN  COL-MD-7
       </div>
    </div>
   </div>
+  <!-- START MODAL  -->
+   <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h3 class="modal-title" id="exampleModalLabel">
+             Contact Form</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="row g-3" action="#">
+                <div class="col-md-6">
+              <input type="text"  required placeholder="First Name" class="form-control shadow">              
+                </div>
+                <div class="col-md-6">
+              <input type="text"  required placeholder="Last Name" class="form-control shadow">              
+                </div>
+                <div class="col-md-6">
+              <input type="number"  required placeholder="mobile Number" class="form-control shadow">              
+                </div>
+                <div class="col-md-6">
+              <input type="email"  required placeholder="Email Address" class="form-control shadow">              
+                </div>
+              <div class="col-md-12">
+                <select class="form-select" required aria-label="Default select example">
+                  <option selected>Country</option>
+                  <option value="1">Angola </option>
+                  <option value="1">Algeria</option>
+                  <option value="1">Belgium </option>
+                  <option value="1">Bukinafaso</option>
+                  <option value="1">Congo </option>
+                  <option value="1">Libya</option>
+                  <option value="1">Nigeria</option>
+                  <option value="1">Niger</option>
+                  <option value="1">Russia </option>
+                  <option value="1">Rwanda</option>
+                  <option value="1">South Africa</option>
+                  <option value="1">Tanzania</option>
+                  <option value="1">Uganda</option>            
+                </select>
+              </div>
+             
+            <div class="col-12">
+               <textarea name="message" placeholder="message" id="message" rows="8" 
+               class="shadow form-control form-control-lg">
+              </textarea>
+            </div>
+                    <!-- start the submit button textarea -->    
+          <div class="col-6 pt-4">
+          <div class="btn-group">
+            <button class="btn btn-primary text-white" type="submit">
+              Submit Now <i class="bi bi-send-check" title="submit"></i>
+                </button>         
+              </div>     
+              </div>     
+            </form>  
+          </div>
+              <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END MODAL  -->
 </section>
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                          START SECTION 9 - THE FOOTER  
@@ -735,7 +800,7 @@ START THE 1ST COLUMN  COL-MD-7
   <div class="col-12 col-sm-6 col-lg-6 mx-auto mb-4"> <!-- Grid column -->
     <!-- Content -->
   <div class="logo mb-5 pt-3">
-    <img src="public/images/logo.png" alt="">
+    <img src="public/images/logo-footer.png" alt="logo footer">
   </div>
     <p class="text-left">We are a creative digital agency offering crreative solutions around the world. 
       Here you can use rows and columns to organize your footer content. Loremsit amet, consectetur adipisicing elit.</p>   
