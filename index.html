@@ -18,8 +18,8 @@
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////-->
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container">
     <a class="navbar-brand" href="#">
       <img src="public/images/logo.png" alt="logo image">
     </a>
@@ -35,16 +35,19 @@
           <a class="nav-link" href="#">Services</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#">work</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">Faq</a>
         </li>
       </ul>
       <span class="navbar-text">
-        <a href="#" class="btn btn-primary">
-          Get Started
-        </a>
+        <button href="#" class="btn btn-primary">
+          Contact us
+        </button>
       </span>
     </div>
   </div>
@@ -87,7 +90,7 @@
 
 <section id="services" class="services-section">
   <div class="container">
-    <div class="row text-center mb-6">
+    <div class="row text-center mb-2">
      <div class="topic-intro">
       <h6>what we offer</h6>
      </div>
@@ -203,17 +206,10 @@
       </p>
     </div>
     <!-- FILTER BUTTONS  -->
-    <div class="row mt-5 mb-4 g-3 text-center">
-      <div class="col-md-12">
-        <button class="btn btn-outline-primary" type="button">All</button>
-        <button class="btn btn-outline-primary" type="button">websites</button>
-        <button class="btn btn-outline-primary" type="button">design</button>
-        <button class="btn btn-outline-primary" type="button">mockup</button>
-      </div>
-    </div>
+ 
   
     <!-- START THE PORTFOLIO ITEMS  -->
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-lg-4 col-md-6">
         <div class="portfolio shadow">
           <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
@@ -289,7 +285,7 @@
           <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
           <img src='public/images/portfolio/portfolio-6.jpg' alt='portfolio 1' class="img-fluid">
           <div class="portfolio__overlay">         
-            <h5>Kenya Social</h5>
+            <h5>Marketing strategy</h5>
             <div class="portfolio__body">
              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
              <button type="button" class="btn btn-light mt-2">
@@ -415,9 +411,9 @@
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                        START SECTION 6 - TESTIMONIALS  
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="testimonials" class="testimonials mt-5">
+<section id="testimonials" class="testimonials">
   <div class="container">
-    <div class="row mt-3 text-center">
+    <div class="row text-center">
       <div class="topic-intro">
         <h6>Customers review</h6>
       </div>
@@ -569,9 +565,12 @@
 
 <section class="faq-section" id="faq">
   <div class="text-center mb-5">
-    <h2 class="display-3 fw-bold">FAQ ?</h2>
-    <hr class="gray mb-4 mt-0 d-inline-block mx-auto" style="width: 100px; height:3px">
-     <p class="lh-lg text-gray-600">frequently asked questions, get knowledge befere hand</p>
+    <div class="topic-intro">
+      <h6>faq?</h6>
+    </div>
+    <h2 class="display-3 fw-bold">Frequently Asked Questions?</h2>
+    <p class="lh-lg text-gray-600">frequently asked questions, get knowledge before hand</p>
+    <hr class="gray mt-0 d-inline-block mx-auto" style="width: 100px; height:3px">
   </div>
   <div class="container">
     <div class="row">
@@ -677,23 +676,25 @@ START THE 1ST COLUMN  COL-MD-7
 <!-- SECTION 8 - CTA  -->
 <section class="get-started">
   <div class="container">
-    <div class="row cta">
+    <div class="row">
         <div class="col-lg-7 col-sm-12">
-          <div class="info">
-            <h3>Ready to dive in?</h3>
-               <p class="pt-4">
-                  <span class="pulse"></span>let's work together
-                </p>
-                <a class="btn btn-primary mt-1" href="mailto:muringipatrick@gmail.com">
-                  Hire Me <i class="bi bi-save"></i>
-                </a>
+          <div class="headline">
+            <h3 class="display-3 fw-normal text-primary">Ready to dive in?</h3>
+               <h5>Let's work together</h5>
               </div>
             </div>                             
-        <div class="col-lg-5 col-sm-12">      
-        <div class="d-flex">
-          <a class="btn btn-outline-primary p-2"> get started </a>
-          <a class="btn btn-outline-success p-2"> learn more </a>           
-        </div>
+        <div class="col-lg-5 col-sm-12">   
+          <div class="start justify-content-center">
+            <a href="mailto:muriungipatrick@gmail.com" 
+            class="btn btn-primary w-100 mb-2 p-3">
+              <h5><i class="bi bi-hand-thumbs-up"></i> Get Started</h5> 
+            </a>  
+            <a href="#" 
+            class="btn btn-outline-primary w-100 mb-2 p-3">
+              <h5><i class="bi bi-envelope-check"></i> info@folioz.agency</h5> 
+              <p class="subtitle">Drop us an Email</p>
+            </a>  
+          </div>
       </div>
    </div>
   </div>
@@ -702,7 +703,7 @@ START THE 1ST COLUMN  COL-MD-7
                          START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
 <!-- Footer -->
-<footer class="footer pt-3" id="contact">
+<footer class="footer" id="contact">
 
 <!--===================================================================
                      START FOOTER SOCIAL MEDIA SECTION
@@ -717,8 +718,9 @@ START THE 1ST COLUMN  COL-MD-7
     <div class="col-12 col-md-6 col-lg-7 text-center">     
       <a href="#"><i class="bi bi-facebook" title="facebook" arial-hidden="true"></i></a> <!-- Facebook -->
       <a href="#"><i class="bi bi-twitter" title="twitter" arial-hidden="true"></i></a><!-- Twitter -->       
-      <a href="#"><i class="bi bi-google-play" title="google-play" arial-hidden="true"></i></a><!-- Google +--> 
-      <a href="#"><i class="bi bi-linkedin" title="--Linkedin" arial-hidden="true"></i></a><!--Linkedin -->        
+      <a href="#"><i class="bi bi-tiktok" title="tiktok" arial-hidden="true"></i></a><!-- Google +--> 
+      <a href="#"><i class="bi bi-snapchat" title="tiktok" arial-hidden="true"></i></a><!-- Google +--> 
+      <a href="#"><i class="bi bi-linkedin" title="Linkedin" arial-hidden="true"></i></a><!--Linkedin -->        
       <a href="#"><i class="bi bi-instagram" title="instagram" arial-hidden="true"></i></a> <!--Instagram-->
     </div> <!-- Grid column -->      
   </div><!-- Grid row-->
@@ -729,12 +731,13 @@ START THE 1ST COLUMN  COL-MD-7
 ============================================================================-->
 <!-- Footer Links -->
 <div class="container mt-3 footer-center">
-<div class="row mt-3 pt-3 pb-3 justify-content-center"><!-- Grid row -->
+<div class="row mt-3 pb-3 justify-content-center"><!-- Grid row -->
   <div class="col-12 col-sm-6 col-lg-6 mx-auto mb-4"> <!-- Grid column -->
     <!-- Content -->
-    <h5 class="text-capitalize font-weight-bold">Clinico</h5>
-    <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
-    <p class="text-left">We are an premier clinico offering internationally services 
+  <div class="logo mb-5 pt-3">
+    <img src="public/images/logo.png" alt="">
+  </div>
+    <p class="text-left">We are a creative digital agency offering crreative solutions around the world. 
       Here you can use rows and columns to organize your footer content. Loremsit amet, consectetur adipisicing elit.</p>   
   </div>
   <!-- Grid column -->
