@@ -4,7 +4,7 @@
 
 
 # Folioz
- A clean, modern and responsive Template supremely crafted for portfolio and latest projects websites.
+ A clean, modern and responsive HTML Template supremely crafted and suited for web agencies, freelancer, architect, creative agency, photography, digital media design company, web design agency, great for development / designer project lightbox services website who want to showcase their portfolio in a stylish minimal way..
 
 It’s built on the Bootstrap v5+ framework. it is a one page template comprising of all the latest features with a template compatible with all modern browsers and devices With a clean design, this Folioz template is ready to impress your audience.
 

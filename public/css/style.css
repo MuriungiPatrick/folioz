@@ -52,8 +52,38 @@
   border-bottom: 2px solid #081828;
   padding: 0.3rem 0;
 }
-.navbar .navbar-text a {
-  color: #fff;
+.navbar .line {
+  fill: none;
+  stroke: #7D56FD;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navbar .x1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.navbar .x2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.navbar .x3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.navbar .opened .x1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.navbar .opened .x2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.navbar .opened .x3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
 }
 
 .intro-section {
@@ -311,9 +341,9 @@
   height: 100%;
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 60%;
   transition: transform 300ms;
-  background-color: rgba(125, 86, 253, 0.5);
+  background-color: #7D56FD;
   transform: translate3d(0, calc(100% - 6.5rem), 0);
 }
 .team-section .team__body {
