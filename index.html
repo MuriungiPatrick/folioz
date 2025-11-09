@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,884 +15,877 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<!-- ////////////////////////////////////////////////////////////////////////////////////////
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////-->
-<nav class="navbar navbar-expand-lg" id="navbar">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="public/images/logo.png" alt="logo image">
-    </a>
-    <button class="navbar-toggler" type="button" 
-            data-bs-toggle="collapse" data-bs-target="#navbarText" 
-            aria-controls="navbarNavDropdown" aria-expanded="false" 
-            aria-label="Toggle navigation" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Menu">
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom-1" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="public/images/logo.png" alt="logo image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                aria-label="Menu">
               <svg width="60" height="60" viewBox="0 0 100 100">
                 <path class="line x1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
                 <path class="line x2" d="M 20,50 H 80" />
                 <path class="line x3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
               </svg>
             </button>
-    
-  <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Testimonials</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Faq</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        <button href="#" class="btn btn-primary">
-          Contact us
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#youtube">Youtube</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">Faq</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+        <button  class="btn btn-primary">
+          <a href="#contact" class="text-white text-decoration-none">Contact US</a>
         </button>
       </span>
-    </div>
-  </div>
-</nav>
+            </div>
+        </div>
+    </nav>
 
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
                             START SECTION 2 - THE INTRO SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-<section id="home" class="intro-section">
-  <div class="container">
-    <div class="row align-items-center text-white">
-      <!-- START THE CONTENT FOR THE INTRO  -->
-      <div class="col-md-6 intros text-start">
-        <div class="topic-intro">
-          <h6>we are a creative digital agency</h6>
-        </div>
-        <h1 class="display-2 fw-bold mb-3">Hey!, I'm Folioz</h1>
-          <h6 class="lh-lg">
-            A HTML Template supremely crafted for web agencies, freelancer, creative agency, photography, digital media design company who want to showcase their portfolio in a stylish minimal way.
-          </h6>
-        <button type="button" class="mt-4 btn btn-outline-light">          
+    <section id="home" class="intro-section">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <!-- START THE CONTENT FOR THE INTRO  -->
+                <div class="col-md-6 intros text-start">
+                    <div class="topic-intro">
+                        <h6>we are a creative digital agency</h6>
+                    </div>
+                    <h1 class="display-2 fw-bold mb-3">Hey!, I'm Folioz</h1>
+                    <h6 class="lh-lg">
+                        A HTML Template supremely crafted for web agencies, freelancer, creative agency, photography, digital media design company who want to showcase their portfolio in a stylish minimal way.
+                    </h6>
+                    <button type="button" class="mt-4 btn btn-outline-light">          
           Discover More <i class="bi bi-arrow-right"></i>
         </button>
-      </div>
-      <!-- START THE CONTENT FOR THE VIDEO -->
-      <div class="col-md-6 col-lg-6 intros order-1 text-end">
-        <div class="intro-box">      
-          <img class="img-fluid" src="public/images/Design-illustration.png" alt="Vaxa code youtube channel">
-            
-          </div>
-      </div>
-    </div>
-  </div>
-</section>
+                </div>
+                <!-- START THE CONTENT FOR THE VIDEO -->
+                <div class="col-md-6 col-lg-6 intros order-1 text-end">
+                    <div class="intro-box">
+                        <img class="img-fluid" src="public/images/Design-illustration.png" alt="Vaxa code youtube channel">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-<section id="services" class="services-section">
-  <div class="container">
-    <div class="row text-center mb-2">
-     <div class="topic-intro">
-      <h6>what we offer</h6>
-     </div>
-      <h3 class="display-3 fw-bold">Our Services</h3>
-        <div class="heading-line mx-auto"></div>
-          <p class="fw-light p-3">
-            Lorem ipsum dolor sit amet consectetur architecto magni, 
-            dicta maxime laborum
-          </p>
-    </div>
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row text-center mb-2">
+                <div class="topic-intro">
+                    <h6>what we offer</h6>
+                </div>
+                <h3 class="display-3 fw-bold">Our Services</h3>
+                <div class="heading-line mx-auto"></div>
+                <p class="fw-light p-3">
+                    Lorem ipsum dolor sit amet consectetur architecto magni, dicta maxime laborum
+                </p>
+            </div>
 
-<!----------------------------------------------------------------------------
+            <!----------------------------------------------------------------------------
         START SECTION-2 THE SERVICES  
 ------------------------------------------------------------------------------>
 
-  <div class="row mt-5">
-				<div class="col-md-6 col-lg-4">
-					<div class="services card bg-white rounded-2 shadow p-4">
-						<div class="icon d-flex align-items-center justify-content-center shadow-sm">
-              <span><i class="bi bi-grid"></i></span>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="services card bg-white rounded-2 shadow p-4">
+                        <div class="icon d-flex align-items-center justify-content-center shadow-sm">
+                            <span><i class="bi bi-grid"></i></span>
+                        </div>
+                        <div class="service-body">
+                            <h3 class="mb-3">Brand Identity</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="services card d-block bg-white rounded-2 shadow p-4">
+                        <div class="icon shadow d-flex align-items-center justify-content-center">
+                            <span><i class="bi bi-globe2"></i></span>
+                        </div>
+                        <div class="service-body">
+                            <h3 class="mb-3">Digital Marketing </h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="services card d-block bg-white rounded-2 shadow p-4">
+                        <div class="icon shadow d-flex align-items-center justify-content-center">
+                            <span><i class="bi bi-pencil-square"></i></span>
+                        </div>
+                        <div class="service-body">
+                            <h3 class="mb-3">Web design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="services card d-block bg-white rounded-2 shadow p-4">
+                        <div class="icon shadow d-flex align-items-center justify-content-center">
+                            <span><i class="bi bi-laptop"></i></span>
+                        </div>
+                        <div class="service-body">
+                            <h3 class="mb-3">IT Consulting</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="services card bg-white rounded-2 shadow p-4">
+                        <div class="icon d-flex align-items-center justify-content-center shadow-sm">
+                            <span><i class="bi bi-cloud-check"></i></span>
+                        </div>
+                        <div class="service-body">
+                            <h3 class="mb-3">Clowd Computing</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="services card bg-white rounded-2 shadow p-4">
+                        <div class="icon d-flex align-items-center justify-content-center shadow-sm">
+                            <span><i class="bi bi-vector-pen"></i></span>
+                        </div>
+                        <div class="service-body">
+                            <h3 class="mb-3">Graphic Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-						<div class="service-body">
-							<h3 class="mb-3">Brand Identity</h3>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
-              </p>
-            </div>
-					</div> 
-				</div>
-				<div class="col-md-6 col-lg-4">
-					<div class="services card d-block bg-white rounded-2 shadow p-4">
-						<div class="icon shadow d-flex align-items-center justify-content-center">
-              <span><i class="bi bi-globe2"></i></span>
-            </div>
-						<div class="service-body">
-							<h3 class="mb-3">Digital Marketing </h3>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
-              </p>
-            </div>
-					</div> 
-				</div>
-				<div class="col-md-6 col-lg-4">
-					<div class="services card d-block bg-white rounded-2 shadow p-4">
-						<div class="icon shadow d-flex align-items-center justify-content-center">
-              <span><i class="bi bi-pencil-square"></i></span>
-            </div>
-						<div class="service-body">
-							<h3 class="mb-3">Web design</h3>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
-              </p>
-            </div>
-          </div> 
-				</div>
-				<div class="col-md-6 col-lg-4">
-					<div class="services card d-block bg-white rounded-2 shadow p-4">
-						<div class="icon shadow d-flex align-items-center justify-content-center">
-              <span><i class="bi bi-laptop"></i></span>
-            </div>
-						<div class="service-body">
-							<h3 class="mb-3">IT Consulting</h3>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?
-              </p>
-            </div>
-					</div> 
         </div>
-        <div class="col-md-6 col-lg-4">
-					<div class="services card bg-white rounded-2 shadow p-4">
-						<div class="icon d-flex align-items-center justify-content-center shadow-sm">
-              <span><i class="bi bi-cloud-check"></i></span>
-            </div>
-						<div class="service-body">
-							<h3 class="mb-3">Clowd Computing</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
-            </div>
-					</div> 
         </div>
-        <div class="col-md-6 col-lg-4">
-					<div class="services card bg-white rounded-2 shadow p-4">
-						<div class="icon d-flex align-items-center justify-content-center shadow-sm">
-              <span><i class="bi bi-vector-pen"></i></span>
-            </div>
-						<div class="service-body">
-							<h3 class="mb-3">Graphic Design</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eos ad error nobis reprehenderit doloremque perspiciatis deserunt?</p>
-              </div>
-            </div> 
-          </div>    
-        </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                             START SECTION 3 - THE PORTFOLIO  
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-<section class="portfolio-section" id="portfolio-section">
-  <div class="container">
-    <div class="row text-center mt-5">
-      <div class="topic-intro">
-        <h6>case study</h6>
-      </div>
-      <h3 class="display-3 fw-bold text-capitalize">our Latest work</h3>
-      <div class="heading-line mx-auto"></div>
-      <p class="p-3 d-sm-block">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
-      </p>
-    </div>
-    <!-- FILTER BUTTONS  -->
- 
-  
-    <!-- START THE PORTFOLIO ITEMS  -->
-    <div class="row mt-5">
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio shadow">
-          <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
-          <img src='public/images/portfolio/portfolio-1.jpg' alt='portfolio 1' class="img-fluid">
-          <div class="portfolio__overlay">         
-            <h4>Product Design</h4>
-            <div class="portfolio__body">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
-             <button type="button" class="btn btn-light mt-2">
-             <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
+    <section class="portfolio-section" id="work">
+        <div class="container">
+            <div class="row text-center mt-5">
+                <div class="topic-intro">
+                    <h6>case study</h6>
+                </div>
+                <h3 class="display-3 fw-bold text-capitalize">our Latest work</h3>
+                <div class="heading-line mx-auto"></div>
+                <p class="p-3 d-sm-block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+                </p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio shadow">
-          <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
-          <img src='public/images/portfolio/portfolio-2.jpg' alt='portfolio 1' class="img-fluid">
-          <div class="portfolio__overlay">         
-            <h4>Graphic Design</h4>
-            <div class="portfolio__body">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
-             <button type="button" class="btn btn-light mt-2">
+            <!-- FILTER BUTTONS  -->
+
+
+            <!-- START THE PORTFOLIO ITEMS  -->
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio shadow">
+                        <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
+                        <img src='public/images/portfolio/portfolio-1.jpg' alt='portfolio 1' class="img-fluid">
+                        <div class="portfolio__overlay">
+                            <h4>Product Design</h4>
+                            <div class="portfolio__body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
+                                <button type="button" class="btn btn-light mt-2">
              <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio shadow">
-          <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
-          <img src='public/images/portfolio/portfolio-3.jpg' alt='portfolio 1' class="img-fluid">
-          <div class="portfolio__overlay">         
-            <h4>Brand Identity</h4>
-            <div class="portfolio__body">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
-             <button type="button" class="btn btn-light mt-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio shadow">
+                        <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
+                        <img src='public/images/portfolio/portfolio-2.jpg' alt='portfolio 1' class="img-fluid">
+                        <div class="portfolio__overlay">
+                            <h4>Graphic Design</h4>
+                            <div class="portfolio__body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
+                                <button type="button" class="btn btn-light mt-2">
              <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio shadow">
-          <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
-          <img src='public/images/portfolio/portfolio-4.jpg' alt='portfolio 1' class="img-fluid">
-          <div class="portfolio__overlay">         
-            <h4>Web Design</h4>
-            <div class="portfolio__body">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
-             <button type="button" class="btn btn-light mt-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio shadow">
+                        <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
+                        <img src='public/images/portfolio/portfolio-3.jpg' alt='portfolio 1' class="img-fluid">
+                        <div class="portfolio__overlay">
+                            <h4>Brand Identity</h4>
+                            <div class="portfolio__body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
+                                <button type="button" class="btn btn-light mt-2">
              <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio shadow">
-          <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
-          <img src='public/images/portfolio/portfolio-5.jpg' alt='portfolio 1' class="img-fluid">
-          <div class="portfolio__overlay">         
-            <h4>Web Development</h4>
-            <div class="portfolio__body">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
-             <button type="button" class="btn btn-light mt-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio shadow">
+                        <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
+                        <img src='public/images/portfolio/portfolio-4.jpg' alt='portfolio 1' class="img-fluid">
+                        <div class="portfolio__overlay">
+                            <h4>Web Design</h4>
+                            <div class="portfolio__body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
+                                <button type="button" class="btn btn-light mt-2">
              <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio shadow">
-          <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
-          <img src='public/images/portfolio/portfolio-6.jpg' alt='portfolio 1' class="img-fluid">
-          <div class="portfolio__overlay">         
-            <h4>Marketing strategy</h4>
-            <div class="portfolio__body">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
-             <button type="button" class="btn btn-light mt-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio shadow">
+                        <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
+                        <img src='public/images/portfolio/portfolio-5.jpg' alt='portfolio 1' class="img-fluid">
+                        <div class="portfolio__overlay">
+                            <h4>Web Development</h4>
+                            <div class="portfolio__body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
+                                <button type="button" class="btn btn-light mt-2">
              <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio shadow">
+                        <a href="https://google.com" aria-labelledby="portfolio 1" target="__blank"></a>
+                        <img src='public/images/portfolio/portfolio-6.jpg' alt='portfolio 1' class="img-fluid">
+                        <div class="portfolio__overlay">
+                            <h4>Marketing strategy</h4>
+                            <div class="portfolio__body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
+                                <button type="button" class="btn btn-light mt-2">
+             <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+    </section>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                        START SECTION 4 - WATCH VIDEO  
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section class="section-with-video" id="video" >
-  <div class="container">
-    <div class="row text-white text-center mb-3">     
-      <div class="col-lg-12">
-       <div class="content">
-        <h3 class="fw-bold">Watch our intro video</h3>
-        <div class="heading-line mx-auto"></div>
-        <p class="p-3 d-sm-block">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
-        </p>
+    <section class="section-with-video" id="youtube">
+        <div class="container">
+            <div class="row text-white text-center mb-3">
+                <div class="col-lg-12">
+                    <div class="content">
+                        <h3 class="fw-bold">Watch our intro video</h3>
+                        <div class="heading-line mx-auto"></div>
+                        <p class="p-3 d-sm-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<section class="section-ntop">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-lg-12 mt-5">
-        <div class="video-box bg-primary shadow">     
-          <img class="img-fluid" src="public/images/youtube-4.png" alt="Vaxa code youtube channel">
-              <a class="glightbox position-absolute top-50 start-50 translate-middle" 
-              href="#">   
-                <span class="video-button">
+    </section>
+    <section class="section-ntop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 mt-5">
+                    <div class="video-box bg-primary shadow">
+                        <img class="img-fluid" src="public/images/youtube-4.png" alt="Vaxa code youtube channel">
+                        <a class="glightbox position-absolute top-50 start-50 translate-middle" href="#">
+                            <span class="video-button">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
                   </svg>                     
-                </span> 
-                 <span class="border-animation border-1"></span>                      
-                 <span class="border-animation border-2"></span> 
-                </a> 
-          </div>
+                </span>
+                            <span class="border-animation border-1"></span>
+                            <span class="border-animation border-2"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
-<!--------------------------------------------------------------------------------------------------
+    <!--------------------------------------------------------------------------------------------------
                       SECTION 5 - OUR TEAM 
 ----------------------------------------------------------------------------------------------------->
-<section class="team-section">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-lg-12 col-md-12">
-        <div class="topic-intro">
-          <h6>Expert Team</h6>
-        </div>
-         <h3 class="display-3 fw-bold text-capitalize">Meet Our Team</h3>
-         <div class="heading-line mx-auto"></div>
-         <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <section class="team-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="topic-intro">
+                        <h6>Expert Team</h6>
+                    </div>
+                    <h3 class="display-3 fw-bold text-capitalize" id="team">Meet Our Team</h3>
+                    <div class="heading-line mx-auto"></div>
+                    <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
-         </p> 
-      </div>
-    </div>
-    <div class="row text-center mt-5">
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="team">
-          <a href="#" aria-labelledby="person1"></a>
-          <img src='public/images/team/team-1.jpg' alt='our team' class="img-fluid">
-          <div class="team__overlay">
-            <h5>Meru Mwangaza</h5>
-            <div class="team__body">
-             <p>UI/UX Designer</p>
+                    </p>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="team">
-          <a href="#" aria-labelledby="person1"></a>
-          <img src='public/images/team/team-2.jpg' alt='our team' class="img-fluid">
-          <div class="team__overlay">
-            <h5>Ole mashamba</h5>
-            <div class="team__body">
-             <p>Web Developer</p>
+            <div class="row text-center mt-5">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="team">
+                        <a href="#" aria-labelledby="person1"></a>
+                        <img src='public/images/team/team-1.jpg' alt='our team' class="img-fluid">
+                        <div class="team__overlay">
+                            <h5>Meru Mwangaza</h5>
+                            <div class="team__body">
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="team">
+                        <a href="#" aria-labelledby="person1"></a>
+                        <img src='public/images/team/team-2.jpg' alt='our team' class="img-fluid">
+                        <div class="team__overlay">
+                            <h5>Ole mashamba</h5>
+                            <div class="team__body">
+                                <p>Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="team">
+                        <a href="#" aria-labelledby="person1"></a>
+                        <img src='public/images/team/team-3.jpg' alt='our team' class="img-fluid">
+                        <div class="team__overlay">
+                            <h5>Ndugu Zanguni</h5>
+                            <div class="team__body">
+                                <p>Brand Strategist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="team">
+                        <a href="#" aria-labelledby="person1"></a>
+                        <img src='public/images/team/team-4.jpg' alt='our team' class="img-fluid">
+                        <div class="team__overlay">
+                            <h5>Quickmart Ivanka</h5>
+                            <div class="team__body">
+                                <p>Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="team">
-          <a href="#" aria-labelledby="person1"></a>
-          <img src='public/images/team/team-3.jpg' alt='our team' class="img-fluid">
-          <div class="team__overlay">
-            <h5>Ndugu Zanguni</h5>
-            <div class="team__body">
-             <p>Brand Strategist</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="team">
-          <a href="#" aria-labelledby="person1"></a>
-          <img src='public/images/team/team-4.jpg' alt='our team' class="img-fluid">
-          <div class="team__overlay">
-            <h5>Quickmart Ivanka</h5>
-            <div class="team__body">
-             <p>Designer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                        START SECTION 6 - TESTIMONIALS  
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="testimonials" class="testimonials">
-  <div class="container">
-    <div class="row text-center">
-      <div class="topic-intro">
-        <h6>Customers review</h6>
-      </div>
-       <h3 class="display-3 fw-bold text-capitalize">testimonials</h3>
-       <div class="heading-line mx-auto"></div>
-       <p class="text-capitalize">What our clients are saying</p>     
-    </div>
-  <div class="row justify-content-center text-white mt-5">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-bs-target="#carousel" data-bs-slide-to="0" class="active bg-primary rounded-circle"></li>
-        <li data-bs-target="#carousel" data-bs-slide-to="1" class="bg-primary rounded-circle"></li>
-        <!-- <li data-bs-target="#carousel" data-bs-slide-to="2" class="bg-white rounded-circle"></li> -->
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="t-card shadow">
-                  <i class="bi bi-chat-quote" aria-hidden="true"></i>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Quam, culpa eius! Ea voluptatibus mollitia hic eos.  
-                      </p>
-                      <br>                          
-                   <div class="d-flex justify-content-evenly">
-                    <div class="client-img">
-                      <img src="public/images/testimonials/client-1.jpg" class="rounded-circle img-fluid">
-                    </div>                                
-                  <div class="name mt-2">
-                  <h5>Jack Mathews</h5>
-                  <p class="fw-light">Global Brand manager - <span>Artc Cafe</span></p>
-                    </div>
-                   </div>
-              </div>
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="row text-center">
+                <div class="topic-intro">
+                    <h6>Customers review</h6>
+                </div>
+                <h3 class="display-3 fw-bold text-capitalize">testimonials</h3>
+                <div class="heading-line mx-auto"></div>
+                <p class="text-capitalize">What our clients are saying</p>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="t-card shadow">
-                <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
-                  <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quam, culpa eius! Ea voluptatibus mollitia hic eos.  
-                    </p>
-                    <br>                          
-                    <div class="d-flex justify-content-evenly">
-                      <div class="client-img">
-                        <img src="public/images/testimonials/client-3.jpg" class="rounded-circle img-fluid">
-                      </div>                                
-                    <div class="name mt-2">
-                        <h5>Esther Zawadi</h5>
-                        <p class="fw-light">digital strategist - <span>Bnb africa</span></p>
-                    </div>
-                    </div>
-                </div>
-              </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="t-card shadow">
-                  <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Quam, culpa eius! Ea voluptatibus mollitia hic eos.  
-                      </p>
-                      <br>                          
-                    <div class="d-flex justify-content-evenly">
-                      <div class="client-img">
-                        <img src="public/images/testimonials/client-1.jpg" class="rounded-circle img-fluid">
-                  </div>                                
-                    <div class="name mt-2">
-                    <h5>Uhuru Kenyatta</h5>
-                    <p class="fw-light">MD - <span>Brookside Diaries</span></p>
-                    </div>
-                    </div>
-                    </div>
-                  </div>
-                </div>                   
-              </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="t-card shadow">
-                  <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Quam, culpa eius! Ea voluptatibus mollitia hic eos.  
-                      </p>
-                      <br>                          
-                      <div class="d-flex justify-content-evenly">
-                        <div class="client-img">
-                          <img src="public/images/testimonials/client-2.jpg" class="rounded-circle img-fluid">
-                    </div>                                
-                      <div class="name mt-2">
-                      <h5>Mary Kilobi</h5>
-                      <p class="fw-light">Sales Manager - <span>Kiko Meko</span></p>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="t-card shadow">
-                  <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Quam, culpa eius! Ea voluptatibus mollitia hic eos.  
-                      </p>
-                      <br>                          
-                   <div class="d-flex justify-content-evenly">
-                    <div class="client-img">
-                      <img src="public/images/testimonials/client-5.jpg" class="rounded-circle img-fluid">
-                    </div>                                
-                    <div class="name mt-2">
-                    <h5>Dr. Nyikal Miwani</h5>
-                    <p class="fw-light">Finance Manager - <span>Karen Hostpital</span></p>
-                    </div>
-                   </div>
-                  </div>
-                </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="t-card shadow">
-                  <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Quam, culpa eius! Ea voluptatibus mollitia hic eos.  
-                      </p>
-                      <br>                          
-                      <div class="d-flex justify-content-evenly">
-                        <div class="client-img">
-                          <img src="public/images/testimonials/client-3.jpg" class="rounded-circle img-fluid">
-                        </div>                                
-                        <div class="name mt-2">
-                        <h5>Esther Zawadi</h5>
-                        <p class="fw-light">digital strategist - <span>Bnb africa</span></p>
+            <div class="row justify-content-center text-white mt-5">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carousel" data-bs-slide-to="0" class="active bg-primary rounded-circle"></li>
+                        <li data-bs-target="#carousel" data-bs-slide-to="1" class="bg-primary rounded-circle"></li>
+                        <!-- <li data-bs-target="#carousel" data-bs-slide-to="2" class="bg-white rounded-circle"></li> -->
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="t-card shadow">
+                                        <i class="bi bi-chat-quote" aria-hidden="true"></i>
+                                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
+                                        </p>
+                                        <br>
+                                        <div class="d-flex justify-content-evenly">
+                                            <div class="client-img">
+                                                <img src="public/images/testimonials/client-1.jpg" class="rounded-circle img-fluid">
+                                            </div>
+                                            <div class="name mt-2">
+                                                <h5>Jack Mathews</h5>
+                                                <p class="fw-light">Global Brand manager - <span>Artc Cafe</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="t-card shadow">
+                                        <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
+                                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
+                                        </p>
+                                        <br>
+                                        <div class="d-flex justify-content-evenly">
+                                            <div class="client-img">
+                                                <img src="public/images/testimonials/client-3.jpg" class="rounded-circle img-fluid">
+                                            </div>
+                                            <div class="name mt-2">
+                                                <h5>Esther Zawadi</h5>
+                                                <p class="fw-light">digital strategist - <span>Bnb africa</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="t-card shadow">
+                                        <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
+                                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
+                                        </p>
+                                        <br>
+                                        <div class="d-flex justify-content-evenly">
+                                            <div class="client-img">
+                                                <img src="public/images/testimonials/client-1.jpg" class="rounded-circle img-fluid">
+                                            </div>
+                                            <div class="name mt-2">
+                                                <h5>Uhuru Kenyatta</h5>
+                                                <p class="fw-light">MD - <span>Brookside Diaries</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="t-card shadow">
+                                        <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
+                                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
+                                        </p>
+                                        <br>
+                                        <div class="d-flex justify-content-evenly">
+                                            <div class="client-img">
+                                                <img src="public/images/testimonials/client-2.jpg" class="rounded-circle img-fluid">
+                                            </div>
+                                            <div class="name mt-2">
+                                                <h5>Mary Kilobi</h5>
+                                                <p class="fw-light">Sales Manager - <span>Kiko Meko</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="t-card shadow">
+                                        <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
+                                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
+                                        </p>
+                                        <br>
+                                        <div class="d-flex justify-content-evenly">
+                                            <div class="client-img">
+                                                <img src="public/images/testimonials/client-5.jpg" class="rounded-circle img-fluid">
+                                            </div>
+                                            <div class="name mt-2">
+                                                <h5>Dr. Nyikal Miwani</h5>
+                                                <p class="fw-light">Finance Manager - <span>Karen Hostpital</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="t-card shadow">
+                                        <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
+                                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
+                                        </p>
+                                        <br>
+                                        <div class="d-flex justify-content-evenly">
+                                            <div class="client-img">
+                                                <img src="public/images/testimonials/client-3.jpg" class="rounded-circle img-fluid">
+                                            </div>
+                                            <div class="name mt-2">
+                                                <h5>Esther Zawadi</h5>
+                                                <p class="fw-light">digital strategist - <span>Bnb africa</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>           
-              </div>
-            </div>          
-          </div>
-          <div class="row text-center mt-5">
-            <div class="col-lg-12 col-md-12">
-              <a class="bi bi-chevron-left btn btn-outline-primary" href="#carouselExampleCaptions"
-              data-bs-slide="prev"></a>
-            <a class="bi bi-chevron-right btn btn-outline-primary" href="#carouselExampleCaptions"
-              data-bs-slide="next"></a>
+                </div>
+                <div class="row text-center mt-5">
+                    <div class="col-lg-12 col-md-12">
+                        <a class="bi bi-chevron-left btn btn-outline-primary" href="#carouselExampleCaptions" data-bs-slide="prev"></a>
+                        <a class="bi bi-chevron-right btn btn-outline-primary" href="#carouselExampleCaptions" data-bs-slide="next"></a>
+                    </div>
+                </div>
             </div>
-          </div>        
         </div>
-    </div>
-  </section>
+    </section>
 
-  <!------------------------------------------------------------------------------------------- 
+    <!------------------------------------------------------------------------------------------- 
             SECTION 7 - FAQ
 ------------------------------------------------------------------------------------------------>
 
-<section class="faq-section" id="faq">
-  <div class="text-center mb-5">
-    <div class="topic-intro">
-      <h6>faq?</h6>
-    </div>
-    <h2 class="display-3 fw-bold">Frequently Asked Questions?</h2>
-    <p class="lh-lg text-gray-600">frequently asked questions, get knowledge before hand</p>
-    <hr class="gray mt-0 d-inline-block mx-auto" style="width: 100px; height:3px">
-  </div>
-  <div class="container">
-    <div class="row">
-<!-- ==================================
+    <section class="faq-section" id="faq">
+        <div class="text-center mb-5">
+            <div class="topic-intro">
+                <h6>faq?</h6>
+            </div>
+            <h2 class="display-3 fw-bold">Frequently Asked Questions?</h2>
+            <p class="lh-lg text-gray-600">frequently asked questions, get knowledge before hand</p>
+            <hr class="gray mt-0 d-inline-block mx-auto" style="width: 100px; height:3px">
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- ==================================
 START THE 1ST COLUMN  COL-MD-7
 ======================================-->
-      <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item shadow mt-3">
-          <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item shadow mt-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
            do you offer discounts
           </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo, 
-            unde cum quod eos nostrum quam fuga placeat provident accusamus, 
-            hic tempora officiis cumque sapiente quis. Fugiat molestias quis impedit.
-          </div>
-        </div>
-      </div>
-    <div class="accordion-item shadow mt-3">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo, unde cum quod eos nostrum quam fuga placeat provident accusamus, hic tempora officiis cumque sapiente quis. Fugiat molestias quis impedit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mt-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           How long will the free trial last?
         </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor,
-           nemo quasi, repudiandae ducimus perferendis doloribus. 
-          Suscipit tenetur repellendus eveniet fugit, id animi quo. Dolor nesciunt hic voluptate rerum?
-        </div>
-      </div>
-    </div>
-    
-    <div class="accordion-item shadow mt-3">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor, nemo quasi, repudiandae ducimus perferendis doloribus. Suscipit tenetur repellendus eveniet fugit,
+                                    id animi quo. Dolor nesciunt hic voluptate rerum?
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item shadow mt-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           do I have to pay again after trial
         </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor,
-          nemo quasi, repudiandae ducimus perferendis doloribus. 
-          Suscipit tenetur repellendus eveniet fugit, id animi quo. Dolor nesciunt hic voluptate rerum?
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="col-lg-6 col-md-6 col-sm-12">
-  <div class="accordion" id="accordionExample">
-      <div class="accordion-item shadow mt-3">
-        <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut ea praesentium itaque? Quaerat tenetur beatae debitis repellat ipsa, sed dolor, nemo quasi, repudiandae ducimus perferendis doloribus. Suscipit tenetur repellendus eveniet fugit,
+                                    id animi quo. Dolor nesciunt hic voluptate rerum?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item shadow mt-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             How can I create an Account
           </button>
-        </h2>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea, dolorum a deserunt quia provident placeat debitis, exercitationem recusandae esse, necessitatibus repellendus odit animi fuga quas? Consectetur, laudantium.
-          </div>
-        </div>
-      </div>
-          <div class="accordion-item shadow mt-3">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea, dolorum a deserunt quia provident placeat debitis, exercitationem recusandae esse, necessitatibus repellendus odit animi fuga quas? Consectetur, laudantium.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mt-3">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 Can I be refunded if am not satisfied
               </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore quos aspernatur libero quisquam soluta officia reprehenderit, ducimus cumque laudantium, voluptates natus totam, iure quod expedita? Natus labore sint veniam nulla laboriosam?
-                </p>
-            </div>
-          </div>
-        </div>
-          <div class="accordion-item shadow mt-3">
-            <h2 class="accordion-header" id="headingSix">
-              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore quos aspernatur libero quisquam soluta officia reprehenderit, ducimus cumque laudantium, voluptates natus totam, iure quod expedita? Natus labore sint veniam nulla laboriosam?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mt-3">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                 Do you offer delivery services?
               </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Yes we do. ducimus cumque laudantium, voluptates natus totam, iure quod expedita? Natus labore sint veniam nulla laboriosam?
-                </p>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Yes we do. ducimus cumque laudantium, voluptates natus totam, iure quod expedita? Natus labore sint veniam nulla laboriosam?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>  
-</div>
-</section>
+    </section>
 
-<!-- SECTION 8 - CTA  -->
-<section class="get-started">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-7 col-sm-12">
-          <div class="headline">
-            <h3 class="display-3 fw-normal text-primary">Ready to dive in?</h3>
-               <h5>Let's work together</h5>
-              </div>
-            </div>                             
-        <div class="col-lg-5 col-sm-12">   
-          <div class="start justify-content-center">
-            <a 
-            class="btn btn-primary w-100 mb-2 p-3" data-bs-toggle="modal" 
-          data-bs-target="#exampleModal-1">
-              <h5><i class="bi bi-hand-thumbs-up"></i> Get Started</h5> 
-            </a>  
-            <a href="#" 
-            class="btn btn-outline-primary w-100 mb-2 p-3">
-              <h5><i class="bi bi-envelope-check"></i> info@folioz.agency</h5> 
-              <p class="subtitle">Drop us an Email</p>
-            </a>  
-          </div>
-      </div>
-   </div>
-  </div>
-  <!-- START MODAL  -->
-   <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header bg-primary text-white">
-          <h3 class="modal-title" id="exampleModalLabel">
-             Contact Form</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- SECTION 8 - CTA  -->
+    <section class="get-started" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-sm-12">
+                    <div class="headline">
+                        <h3 class="display-3 fw-normal text-primary">Ready to dive in?</h3>
+                        <h5>Let's work together</h5>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-12">
+                    <div class="start justify-content-center">
+                        <a class="btn btn-primary w-100 mb-2 p-3" data-bs-toggle="modal" data-bs-target="#exampleModal-1">
+                            <h5><i class="bi bi-hand-thumbs-up"></i> Get Started</h5>
+                        </a>
+                        <a href="#" class="btn btn-outline-primary w-100 mb-2 p-3">
+                            <h5><i class="bi bi-envelope-check"></i> info@folioz.agency</h5>
+                            <p class="subtitle">Drop us an Email</p>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <form class="row g-3" action="#">
-                <div class="col-md-6">
-              <input type="text"  required placeholder="First Name" class="form-control shadow">              
-                </div>
-                <div class="col-md-6">
-              <input type="text"  required placeholder="Last Name" class="form-control shadow">              
-                </div>
-                <div class="col-md-6">
-              <input type="number"  required placeholder="mobile Number" class="form-control shadow">              
-                </div>
-                <div class="col-md-6">
-              <input type="email"  required placeholder="Email Address" class="form-control shadow">              
-                </div>
-              <div class="col-md-12">
-                <select class="form-select" required aria-label="Default select example">
-                  <option selected>Country</option>
-                  <option value="1">Angola </option>
-                  <option value="1">Algeria</option>
-                  <option value="1">Belgium </option>
-                  <option value="1">Bukinafaso</option>
-                  <option value="1">Congo </option>
-                  <option value="1">Libya</option>
-                  <option value="1">Nigeria</option>
-                  <option value="1">Niger</option>
-                  <option value="1">Russia </option>
-                  <option value="1">Rwanda</option>
-                  <option value="1">South Africa</option>
-                  <option value="1">Tanzania</option>
-                  <option value="1">Uganda</option>            
-                </select>
-              </div>
-             
-            <div class="col-12">
-               <textarea name="message" required placeholder="Message" id="message" rows="8" 
-               class="shadow form-control">
-              </textarea>
-            </div>
-                    <!-- start the submit button textarea -->    
-          <div class="col-6 pt-4">
-          <div class="btn-group">
-            <button class="btn btn-primary text-white" type="submit">
-              Submit Now <i class="bi bi-send-check" title="submit"></i>
-                </button>         
-              </div>     
-              </div>     
-            </form>  
-          </div>
-              <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>         
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- END MODAL  -->
-</section>
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////
+        <!-- START MODAL  -->
+        <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <h3 class="modal-title" id="exampleModalLabel">
+                            Contact Form</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="row g-3" action="#">
+                            <div class="col-md-6">
+                                <input type="text" required placeholder="First Name" class="form-control shadow">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" required placeholder="Last Name" class="form-control shadow">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" required placeholder="mobile Number" class="form-control shadow">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" required placeholder="Email Address" class="form-control shadow">
+                            </div>
+                            <div class="col-md-12">
+                                <select class="form-select" required aria-label="Default select example">
+                                    <option selected>Country</option>
+                                    <option value="1">Angola </option>
+                                    <option value="1">Algeria</option>
+                                    <option value="1">Belgium </option>
+                                    <option value="1">Bukinafaso</option>
+                                    <option value="1">Congo </option>
+                                    <option value="1">Libya</option>
+                                    <option value="1">Nigeria</option>
+                                    <option value="1">Niger</option>
+                                    <option value="1">Russia </option>
+                                    <option value="1">Rwanda</option>
+                                    <option value="1">South Africa</option>
+                                    <option value="1">Tanzania</option>
+                                    <option value="1">Uganda</option>            
+                                  </select>
+                            </div>
+
+                            <div class="col-12">
+                                <textarea name="message" required placeholder="Message" id="message" rows="8" class="shadow form-control">
+                            </textarea>
+                            </div>
+                            <!-- start the submit button textarea -->
+                            <div class="col-6 pt-4">
+                                <div class="btn-group">
+                                    <button class="btn btn-primary text-white" type="submit">
+              Submit Now <i class="bi bi-send-check" title="submit"></i>
+                </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MODAL  -->
+    </section>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                          START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
-<!-- Footer -->
-<footer class="footer" id="contact">
+    <!-- Footer -->
+    <footer class="footer" id="contact">
 
-<!--===================================================================
+        <!--===================================================================
                      START FOOTER SOCIAL MEDIA SECTION
 =====================================================================-->
 
-<div class="footer-sm" style="background-color: #212121;">
-<div class="container">
-  <div class="row py-4 d-flex align-items-center"><!-- Grid row-->      
-    <div class="col-12 col-md-6 col-lg-5 mb-4 mb-md-0"> <!-- Grid column -->
-      <h6 class="mb-0 text-center">Connect with us on social Media!</h6>
-    </div>
-    <div class="col-12 col-md-6 col-lg-7 text-center">     
-      <a href="#"><i class="bi bi-facebook" title="facebook" arial-hidden="true"></i></a> <!-- Facebook -->
-      <a href="#"><i class="bi bi-twitter" title="twitter" arial-hidden="true"></i></a><!-- Twitter -->       
-      <a href="#"><i class="bi bi-tiktok" title="tiktok" arial-hidden="true"></i></a><!-- Google +--> 
-      <a href="#"><i class="bi bi-snapchat" title="tiktok" arial-hidden="true"></i></a><!-- Google +--> 
-      <a href="#"><i class="bi bi-linkedin" title="Linkedin" arial-hidden="true"></i></a><!--Linkedin -->        
-      <a href="#"><i class="bi bi-instagram" title="instagram" arial-hidden="true"></i></a> <!--Instagram-->
-    </div> <!-- Grid column -->      
-  </div><!-- Grid row-->
-</div>
-</div>
-<!--===========================================================================
+        <div class="footer-sm" style="background-color: #212121;">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <!-- Grid row-->
+                    <div class="col-12 col-md-6 col-lg-5 mb-4 mb-md-0">
+                        <!-- Grid column -->
+                        <h6 class="mb-0 text-center">Connect with us on social Media!</h6>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-7 text-center">
+                        <a href="#"><i class="bi bi-facebook" title="facebook" arial-hidden="true"></i></a>
+                        <!-- Facebook -->
+                        <a href="#"><i class="bi bi-twitter" title="twitter" arial-hidden="true"></i></a>
+                        <!-- Twitter -->
+                        <a href="#"><i class="bi bi-tiktok" title="tiktok" arial-hidden="true"></i></a>
+                        <!-- Google +-->
+                        <a href="#"><i class="bi bi-snapchat" title="tiktok" arial-hidden="true"></i></a>
+                        <!-- Google +-->
+                        <a href="#"><i class="bi bi-linkedin" title="Linkedin" arial-hidden="true"></i></a>
+                        <!--Linkedin -->
+                        <a href="#"><i class="bi bi-instagram" title="instagram" arial-hidden="true"></i></a>
+                        <!--Instagram-->
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+            </div>
+        </div>
+        <!--===========================================================================
                       START FOOTER CENTER
 ============================================================================-->
-<!-- Footer Links -->
-<div class="container mt-3 footer-center">
-<div class="row mt-3 pb-3 justify-content-center"><!-- Grid row -->
-  <div class="col-12 col-sm-6 col-lg-6 mx-auto mb-4"> <!-- Grid column -->
-    <!-- Content -->
-  <div class="logo mb-5 pt-3">
-    <img src="public/images/logo-footer.png" alt="logo footer">
-  </div>
-    <p class="text-left">We are a creative digital agency offering crreative solutions around the world. 
-      Here you can use rows and columns to organize your footer content. Loremsit amet, consectetur adipisicing elit.</p>   
-  </div>
-  <!-- Grid column -->
-  <!-- Grid column -->
-  <div class="col-12 col-sm-6 col-lg-2 mb-4">
-    <!-- Links -->
-    <h5 class="text-capitalize font-weight-bold">Services</h5>
-    <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
-    <ul class="list-inline f-list">
-      <li><a href="#">marketing.</a></li>
-      <li><a href="#">analytics.</a></li>
-      <li><a href="#">commerce.</a></li>
-    <li><a href="#">insights</a></li>
-    </ul>
-  </div>
-  <!-- Grid column -->
+        <!-- Footer Links -->
+        <div class="container mt-3 footer-center">
+            <div class="row mt-3 pb-3 justify-content-center">
+                <!-- Grid row -->
+                <div class="col-12 col-sm-6 col-lg-6 mx-auto mb-4">
+                    <!-- Grid column -->
+                    <!-- Content -->
+                    <div class="logo mb-5 pt-3">
+                        <img src="public/images/logo-footer.png" alt="logo footer">
+                    </div>
+                    <p class="text-left">We are a creative digital agency offering crreative solutions around the world. Here you can use rows and columns to organize your footer content. Loremsit amet, consectetur adipisicing elit.</p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-12 col-sm-6 col-lg-2 mb-4">
+                    <!-- Links -->
+                    <h5 class="text-capitalize font-weight-bold">Services</h5>
+                    <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
+                    <ul class="list-inline f-list">
+                        <li><a href="#">marketing.</a></li>
+                        <li><a href="#">analytics.</a></li>
+                        <li><a href="#">commerce.</a></li>
+                        <li><a href="#">insights</a></li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
 
-  <!-- Grid column -->
-  <div class="col-12 col-sm-6 col-lg-2 mx-auto mb-4">
-    <!-- Links -->
-    <h5 class="text-capitalize font-weight-bold">Useful links</h5>
-    <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
-    <ul class="list-inline f-list">
-    <li><a href="#">Your Account</a></li>
-    <li><a href="#">pricing</a></li>
-    <li><a href="#">documentation</a></li>
-  </div>
-  <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-12 col-sm-6 col-lg-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h5 class="text-capitalize font-weight-bold">Useful links</h5>
+                    <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
+                    <ul class="list-inline f-list">
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">pricing</a></li>
+                        <li><a href="#">documentation</a></li>
+                </div>
+                <!-- Grid column -->
 
-  <!-- Grid column -->
-  <div class="col-12 col-sm-6 col-lg-2 mx-auto mb-4"><!-- Links -->
-    <h5 class="text-capitalize font-weight-bold">support</h5>
-    <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
-    <ul class="list-inline f-list">
-    <li><a href="#">Guides</a></li>
-    <li><a href="#">API status</a></li>
-    <li><a href="#">cloud hosting</a></li>
+                <!-- Grid column -->
+                <div class="col-12 col-sm-6 col-lg-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h5 class="text-capitalize font-weight-bold">support</h5>
+                    <hr class="bg-white mb-4 d-inline-block mx-auto" style="width: 60px; height:2px">
+                    <ul class="list-inline f-list">
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">API status</a></li>
+                        <li><a href="#">cloud hosting</a></li>
 
-    </ul>
-  </div><!-- Grid column -->
-</div><!-- Grid row -->
-</div> <!-- Footer Links --> 
+                    </ul>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
 
-<!--=========================================================
+        <!--=========================================================
        START FOOTER BOTTOM  
-===========================================================--> 
-  <div class="footer-bottom pt-5 pb-5">
-      <div class="container">
-          <div class="row text-center">
-              <div class="col-lg-6 col-md-6 col-sm-12 text-start">
-                  <div class="footer-bottom__copyright">
-                      &copy; Copyright 2022 <a href="index.html">Folioz inc</a> |
-                      Created by <a href="http://codingpatrick.netlify.app">Muriungi</a>
-                  </div> 
-              </div>            
-              <div class="col-lg-6 col-md-6 col-sm-12 text-end">
-                  <div class="footer-bottom__legalstuff">
-                      <a href="index.html">Terms</a> |
-                      <a href="http://www.vaxacode.com">Privacy</a>
-                  </div> 
-              </div>            
-          </div>
-      </div>
-  </div>
-</footer>
-<!-- Footer -->
+===========================================================-->
+        <div class="footer-bottom pt-5 pb-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-start">
+                        <div class="footer-bottom__copyright">
+                            &copy; Copyright 2022 <a href="#">Folioz inc</a> | Created by <a href="#">Muriungi</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-end">
+                        <div class="footer-bottom__legalstuff">
+                            <a href="#">Terms</a> |
+                            <a href="#">Privacy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
 
-<!-- BACK TO TOP BUTTON  -->
-<a href="#" class="shadow btn btn-primary rounded-circle back-to-top">
-<i class="bi bi-chevron-up"></i>
-</a>
+    <!-- BACK TO TOP BUTTON  -->
+    <a href="#" class="shadow btn btn-primary rounded-circle back-to-top">
+        <i class="bi bi-chevron-up"></i>
+    </a>
 
     <script src="public/js/glightbox.min.js"></script>
 
     <script type="text/javascript">
-      const lightbox = GLightbox({
-        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
-        'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
-        'width': 900,
-        'autoPlayVideos': 'true',
-});
-    
+        const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideos': 'true',
+        });
     </script>
     <script src="public/js/bootstrap.min.js"></script>
 </body>
+
 </html>

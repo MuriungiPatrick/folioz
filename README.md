@@ -1,5 +1,7 @@
 ###### Release ```Dec-14, 2022.```
 
+###### Last Updated ```Nov 09 2025```
+
 ### [Live Preview](https://muriungipatrick.github.io/folioz)
 
 
