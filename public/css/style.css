@@ -55,8 +55,14 @@
     color: #7D56FD;
 }
 
-.navbar li {
-    padding: 0 0.7rem;
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin-left: 1.5rem;
+    font-weight: 700;
 }
 
 .nav-link {
@@ -82,47 +88,58 @@
     padding: 2px;
     transform: translateY(6px);
     transition: all 0.3s;
-    border-bottom: 2px solid #081828;
 }
 
-.navbar .line {
-    fill: none;
-    stroke: #7D56FD;
-    stroke-width: 6;
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+.nav-link.active {
+    padding: 2px 5px;
+    border-bottom: 3px solid #7D56FD;
+    /* background-color: #7D56FD; */
+    /* color: #fff; */
 }
 
-.navbar .x1 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #7D56FD;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.navbar .x2 {
-    stroke-dasharray: 60 60;
-    stroke-width: 6;
-}
 
-.navbar .x3 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
-}
+/* Mobile Menu Styles */
 
-.navbar .opened .x1 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
-}
-
-.navbar .opened .x2 {
-    stroke-dasharray: 1 60;
-    stroke-dashoffset: -30;
-    stroke-width: 6;
-}
-
-.navbar .opened .x3 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        color: #7D56FD;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 2rem 0;
+        z-index: 999;
+        font-weight: 700;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+    .nav-link {
+        justify-content: center;
+        padding: 1rem;
+    }
 }
 
 .hero-section {
@@ -735,5 +752,7 @@
     transform: translateY(-3px);
 }
 
-
+.mt-5 {
+    margin-top: 6rem;
+}
 /*# sourceMappingURL=style.css.map */
