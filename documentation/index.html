@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folioz - Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <i class="fas fa-palette"></i>
+                <img src="logo-footer.png" alt="logo">
+               
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li class="section-title">Getting Started</li>
+            <li><a href="#introduction" class="active">Introduction</a></li>
+            <li><a href="#quick-start">Quick Start</a></li>
+            <li><a href="#file-structure">File Structure</a></li>
+            
+            <li class="section-title">Customization</li>
+            <li><a href="#colors">Color Scheme</a></li>
+            <li><a href="#navbar">Navbar</a></li>
+            <li><a href="#content">Content Updates</a></li>
+            <li><a href="#contact-form">Contact Form</a></li>
+            
+            <li class="section-title">Advanced</li>
+            <li><a href="#css-guide">CSS Guide</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#responsive">Responsive Design</a></li>
+            
+            <li class="section-title">Resources</li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#updates">Updates</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Introduction Section -->
+        <section id="introduction" class="section">
+            <h1 class="section-title">Folioz Documentation</h1>
+            <div class="card">
+                <h3><i class="fas fa-info-circle"></i> Welcome to Folioz</h3>
+                <p>Thank you for purchasing <strong>Folioz</strong> - the modern, responsive HTML landing page template designed for creative professionals, agencies, and portfolio websites.</p>
+                <p>This documentation will guide you through the template structure and customization process. Whether you're a beginner or an experienced developer, you'll find all the information needed to set up your website.</p>
+                
+                <div class="tip-box">
+                    <p><strong>Tip:</strong> This documentation is designed to be comprehensive yet easy to follow. If you're new to HTML/CSS, start with the "Quick Start" section.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Start Section -->
+        <section id="quick-start" class="section">
+            <h2 class="section-title">Quick Start Guide</h2>
+            <div class="card">
+                <h3><i class="fas fa-rocket"></i> Getting Started in 5 Minutes</h3>
+                
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Download and Extract</h4>
+                        <p>After purchasing, download the template files and extract the ZIP archive to your desired location.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Open the Main File</h4>
+                        <p>Locate the <code>index.html</code> file in the main folder and open it in a code editor like VS Code, Sublime Text, or Atom.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Customize Content</h4>
+                        <p>Update the text, images, and links in the HTML file to match your brand and content needs.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Test Locally</h4>
+                        <p>Open the <code>index.html</code> file in your web browser to preview your changes.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h4>Upload to Server</h4>
+                        <p>Once satisfied, upload all files to your web hosting server via FTP or your hosting provider's file manager.</p>
+                    </div>
+                </div>
+                
+                <div class="checklist">
+                    <h4>Quick Start Checklist</h4>
+                    <ul>
+                        <li>Update company name and logo</li>
+                        <li>Replace hero section content</li>
+                        <li>Customize color scheme</li>
+                        <li>Update services/features</li>
+                        <li>Add portfolio projects</li>
+                        <li>Insert team member information</li>
+                        <li>Configure contact form</li>
+                        <li>Test on different devices</li>
+                        <li>Optimize images</li>
+                        <li>Connect Google Analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- File Structure Section -->
+        <section id="file-structure" class="section">
+            <h2 class="section-title">File Structure</h2>
+            <div class="card">
+                <h3><i class="fas fa-folder-open"></i> Template Organization</h3>
+                <p>Folioz follows a logical folder structure to keep your project organized:</p>
+                
+                <div class="file-structure">
+                    Folioz/<br>
+                    <ul>
+                        <li class="folder">Documentation/</li>
+                        <li class="file">index.html (this file)</li>
+                        <li class="file">logo-footer.png</li>
+                        <li class="file">logo.png</li>
+                        <li class="file">style.css</li>
+                    </ul>
+                    <ul>
+                        <li class="folder">public/
+                            <ul>                                                       
+                                <li class="folder">css/
+                                    <ul>
+                                        <li class="folder">fonts/</li>
+                                    </ul>
+                                    <ul>
+                                    
+                                        <li class="file">style.css</li>
+                                        <li class="file">bootstrap.css</li>
+                                        <li class="file">bootstrap-icons.css</li>
+                                        <li class="file">glightbox.min.css</li>
+                                        <li class="file">responsive.css</li>
+                                    </ul>
+                                </li>
+                           
+                        <li class="folder">images/
+                            <ul>
+                                <li class="folder">portfolio/</li>
+                                    <ul>
+                                        <li class="file">portfolio-1.jpg</li>
+                                        <li class="file">portfolio-2.jpg</li>
+                                        <li class="file">portfolio-3.jpg</li>
+                                        <li class="file">portfolio-4.jpg</li>
+                                        <li class="file">portfolio-5.jpg</li>
+                                        <li class="file">portfolio-6.jpg</li>
+                                        <li class="file">portfolio-7.jpg</li>
+                                    </ul>
+                                <li class="folder">team/</li>
+                                    <ul>
+                                        <li class="file">team-1.jpg</li>
+                                        <li class="file">team-2.jpg</li>
+                                        <li class="file">team-3.jpg</li>
+                                        <li class="file">team-4.jpg</li>
+                                    </ul>
+                                <li class="folder">testimonials/</li>
+                                    <ul>
+                                        <li class="file">client-1.jpg</li>
+                                        <li class="file">client-2.jpg</li>
+                                        <li class="file">client-3.jpg</li>
+                                        <li class="file">client-4.jpg</li>
+                                        <li class="file">client-5.jpg</li>
+                                    </ul>
+                            </ul>
+                            <ul>
+                                <li class="file">logo.png</li>
+                                <li class="file">logo-footer.png</li>
+                                <li class="file">youtube.png</li>
+                                <li class="file">design-illustration.png</li>
+                                <li class="file">des.png</li>
+                            </ul>
+                        </li>
+                        <li class="folder">js/
+                            <ul>
+                                <li class="file">back-to-top.js/</li>
+                                <li class="file">bootstrap.min.js/</li>
+                                <li class="file">glightbox.min.js/</li>
+                                <li class="file">main.js/</li>
+                                <li class="file">navbar.js/</li>
+                            </ul>
+                        </li>
+                        
+                            </ul>
+                        </li>
+                    <li class="file">index.html</li>
+                        <li class="file">LICENCE.txt</li>
+                        <li class="file">package.json</li>
+                    </ul>
+                    
+                </div>
+                
+                <div class="tip-box">
+                    <p><strong>Note:</strong> All file paths in the template are relative, so the website will work correctly as long as you maintain the folder structure when uploading to your server.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Colors Section -->
+        <section id="colors" class="section">
+            <h2 class="section-title">Color Scheme</h2>
+            <div class="card">
+                <h3><i class="fas fa-palette"></i> Customizing Colors</h3>
+                <p>Folioz uses CSS variables for easy color customization. The main color scheme can be modified by updating these variables in the <code>:root</code> selector at the top of the CSS file.</p>
+                
+                <div class="color-palette">
+                    <div class="color-item">
+                        <div class="color-box" style="background-color: #7D56FD;"></div>
+                        <span class="color-name">Primary</span>
+                        <span class="color-code">#7D56FD</span>
+                    </div>
+            
+                    <div class="color-item">
+                        <div class="color-box" style="background-color: #081828;"></div>
+                        <span class="color-name">secondary</span>
+                        <span class="color-code">#081828</span>
+                    </div>
+                    <div class="color-item">
+                        <div class="color-box" style="background-color: #4c4c4c;"></div>
+                        <span class="color-name">Text</span>
+                        <span class="color-code">#4c4c4c</span>
+                    </div>
+                    <div class="color-item">
+                        <div class="color-box" style="background-color: #fafafa;"></div>
+                        <span class="color-name">Body bg</span>
+                        <span class="color-code">#fafafa</span>
+                    </div>
+                   
+                </div>
+                
+                <p>To change the color scheme, locate this code in the CSS file:</p>
+                
+                <pre><code>:root {
+                --primary-color: #7D56FD;
+                --secondary-color: #081828;
+                --text: #4c4c4c;
+                --body-bg: #fafafa;
+                --white: #ffffff;
+            }</code></pre>
+                
+                <p>Simply replace the hex codes with your preferred colors, and the changes will apply throughout the entire website.</p>
+            </div>
+        </section>
+
+        <!-- Content Updates Section -->
+        <section id="content" class="section">
+            <h2 class="section-title">Content Updates</h2>
+            <div class="card">
+                <h3><i class="fas fa-edit"></i> Modifying Text & Sections</h3>
+                <p>Updating the content in Folioz is straightforward. Here's how to modify key sections:</p>
+                <div class="mt-5"></div>
+                <h4 class="fw-bold">1- Updating the Hero Section</h4>
+                <p>Locate the hero section in the HTML file (usually near the top) and modify the text between the tags:</p>
+              <img src="/documentation//screenshots/hero-section.png" alt="">
+               
+                <div class="mt-5"></div>
+                <h4>2 - Modifying Services</h4>
+                <p>Update the services section by editing the service cards:</p>
+                
+                <pre><code>&lt;section id="services" class="services-section"&gt;
+                &lt;div class="topic-intro"&gt;
+                &lt;/div&gt;
+                &lt;h6&gt;what we offer&lt;/h6&gt;
+                &lt;h3&gt;class="display-3 fw-bold">Our Services.&lt;/h3&gt;
+            &lt;/div&gt;</code></pre>
+                
+               
+                <figure>
+                <img src="/documentation/screenshots/services-card-content.png" alt="services content">
+                <figcaption>change the content for each card</figcaption>
+            </figure>
+                
+                <img src="/documentation/screenshots/services-card.png" alt="services content">
+                <div class="mt-5"></div>
+                <h4>3 - Modifying Portfolio Section</h4>
+                <p>Update the portfolio section by editing the portfolio item:</p>
+                <img src="/documentation/screenshots/portfolio-section.png" alt="portfolio content">
+                <img src="/documentation/screenshots/portfolio-items.png" alt="portfolio content">
+                <img src="/documentation/screenshots/portfolio-item.png" alt="portfolio content">
+                    <div class="mt-5"></div>
+                <h4>4 - Modifying Who we are Section</h4>
+                <p>Update the Who we are section by editing the portfolio item:</p>
+                <img src="/documentation/screenshots/who-we-are-heaading.png" alt="portfolio content" cap>
+                <img src="/documentation/screenshots/who-we-are-desc.png" alt="portfolio content">
+                <img src="/documentation/screenshots/who-we-are-video-image-overlay.png" alt="portfolio content">
+                
+                <div class="mt-5"></div>
+
+                <h4>5 - Modifying Team Section</h4>
+                <p>Update the who we are section by editing the team item:</p>
+                    <figure>
+                        <img src="/documentation/screenshots/teams-section.png" alt="Team content">
+                        <figcaption>Team section with content on the front end</figcaption>
+                    </figure>                        
+                    <figure>
+                        <img src="/documentation/screenshots/team-card.png" alt="Team content">
+                        <figcaption>change the content for each picture, name and Team Role</figcaption>
+                    </figure>                        
+                <div class="mt-5"></div>
+                <h4>6 - Modifying Testimonials Section</h4>
+                <p>Update the Testimonials item:</p>
+                    <figure>
+                        <img src="/documentation/screenshots/testimonials-section.png" alt="Testimonials section">
+                        <figcaption>change the content for each client testimonial eg picture, name, text and Role</figcaption>
+                    </figure>
+
+                <div class="mt-5"></div>
+                <h4>7 - Modifying cta Section</h4>
+                <p>Update the CTA section:</p>
+                <figure>
+                    <img src="/documentation/screenshots/cta-section.png" alt="cta content">
+                    <figcaption>change the content for cta, phone,email,and form once you click the get started button link</figcaption>
+                </figure>
+               
+                <div class="mt-5"></div>
+                <h4>8 - Modifying footer Section</h4>
+                <p>Update the footer section:</p>
+                <figure>
+                    <img src="/documentation/screenshots/footer-section.png" alt="footer content">
+                    <figcaption>change the content for the footer, phone,email, services links,useful links, support, social media links</figcaption>
+                </figure>
+
+                <div class="mt-5"></div>
+                <h3 id="navbar">NAVBAR</h3>
+                <p>Update the Contact form section:</p>
+                <figure>
+                    <img src="/documentation/screenshots/navbar.png" alt="footer content">
+                    <figcaption>The Navbar menus on the front end</figcaption>
+                    <img src="/documentation/screenshots/navbar-code.png" alt="footer content">
+                    <figcaption>change the content for Navbar menus and id attributed highlighted in red</figcaption>
+                </figure>
+                <div class="mt-5"></div>
+                <h3 id="contact-form">Contact form</h3>
+                <p>Update the Contact form section:</p>
+                <figure>
+                    <img src="/documentation/screenshots/form-button.png" alt="footer content">
+                    <figcaption>change the content for form button</figcaption>
+                </figure>
+               
+                
+                
+                <div class="tip-box">
+                    <p><strong>Pro Tip:</strong> Keep your content concise and focused. Use clear headings and bullet points to improve readability.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section -->
+        <section id="support" class="section">
+            <h2 class="section-title">Support</h2>
+            <div class="card">
+                <h3><i class="fas fa-life-ring"></i> Getting Help</h3>
+                <p>We're here to help you get the most out of your Folioz template. Here's how to get support:</p>
+                
+                <h4>Documentation</h4>
+                <p>First, check this documentation thoroughly. Most questions can be answered by reviewing the relevant sections.</p>
+                
+                <h4>Technical Support</h4>
+                <ul>
+                    <li><strong>Email:</strong> support@codewithpatrick.online.com</li>
+                    <li><strong>Response Time:</strong> 24-48 hours</li>
+                    <li><strong>What to Include:</strong> Description of the issue + screenshots</li>
+                </ul>
+                
+                
+                
+                <div class="warning-box">
+                    <p><strong>Note:</strong> Please check the documentation before contacting support. This helps us serve you better and resolve your issues faster.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="card">
+                <h3><i class="fas fa-question-circle"></i> Common Questions</h3>
+                
+                <table>
+                    <tr>
+                        <th>Question</th>
+                        <th>Answer</th>
+                    </tr>
+                    <tr>
+                        <td>How do I change the logo?</td>
+                        <td>Replace the logo image in the navigation section and update the alt text.</td>
+                    </tr>
+                    <tr>
+                        <td>Can I add more sections?</td>
+                        <td>Yes, you can duplicate existing sections and modify the content as needed.</td>
+                    </tr>
+                    <tr>
+                        <td>Is the template mobile-friendly?</td>
+                        <td>Yes, Folioz is fully responsive and works on all device sizes.</td>
+                    </tr>
+                    <tr>
+                        <td>How do I set up the contact form?</td>
+                        <td>Update the form action attribute to point to your form processing script.</td>
+                    </tr>
+                    <tr>
+                        <td>Can I use my own fonts?</td>
+                        <td>Yes, you can replace the font imports in the CSS file with your preferred fonts.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <div class="card" style="text-align: center; margin-top: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2><i class="fas fa-heart"></i> Thank You for Choosing Folioz!</h2>
+            <p>We're confident that Folioz will help you create a stunning online presence for your business.</p>
+            <p>If you have any questions, don't hesitate to contact our support team.</p>
+            <p style="margin-top: 20px;">
+                <a href="#" class="btn" style="background: white; color: #6366f1;">Back to Top</a>
+            </p>
+        </div>
+    </main>
+
+    <script>
+        // Simple script for active navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-links a');
+            const sections = document.querySelectorAll('.section');
+            
+            // Set first nav link as active by default
+            navLinks[0].classList.add('active');
+            
+            // Update active nav link on scroll
+            window.addEventListener('scroll', function() {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (pageYOffset >= (sectionTop - 100)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').substring(1) === current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

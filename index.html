@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Folioz bootstrap v5 website template</title>
+    <title>Folioz bootstrap v5 website Landing page template</title>
     <meta name="keywords" content="keywords here">
     <meta name="description" content="enter description here">
     <link rel="stylesheet" href="public/css/style.css">
@@ -20,57 +20,67 @@
     <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////-->
-    <nav class="navbar navbar-expand-lg fixed-top border-bottom-1" id="navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top">
+        <div class="container nav-container align-items-center">
+            <a href="#" class="logo">
                 <img src="public/images/logo.png" alt="logo image">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))">
-              <svg width="60" height="60" viewBox="0 0 100 100">
-                <path class="line x1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                <path class="line x2" d="M 20,50 H 80" />
-                <path class="line x3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-              </svg>
-            </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#youtube">Youtube</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">Faq</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-       
-          <a href="#contact" class="btn btn-primary text-white text-decoration-none">Contact US</a>
-        
-      </span>
-            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <i class="fa fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">
+                        <i class="fa fa-info-circle"></i> Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">
+                        <i class="fa fa-briefcase"></i> Work
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#whoweare" class="nav-link">
+                        <i class="fa fa-images"></i> Who we are
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">
+                        <i class="fa fa-images"></i> Our Team
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">
+                        <i class="fa fa-envelope"></i> Teastimonials
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#faq" class="nav-link">
+                        <i class="fa fa-images"></i> Faq
+                    </a>
+                </li>
+            </ul>
+
+            <span class="navbar-text">
+                <a href="#contact" class="btn btn-primary text-white text-decoration-none d-none d-lg-flex">Contact US</a>
+            </span>
+            <button class="hamburger">
+                <i class="bi bi-list">Menu</i>
+            </button>
         </div>
     </nav>
+
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
                             START SECTION 2 - THE INTRO SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-    <section id="home" class="intro-section">
+    <section id="home" class="hero-section">
         <div class="container">
             <div class="row align-items-center text-white">
                 <!-- START THE CONTENT FOR THE INTRO  -->
@@ -80,7 +90,8 @@
                     </div>
                     <h1 class="display-2 fw-bold mb-3">Hey!, I'm Folioz</h1>
                     <h6 class="lh-lg">
-                        A HTML Template supremely crafted for web agencies, freelancer, creative agency, photography, digital media design company who want to showcase their portfolio in a stylish minimal way.
+                        A HTML Template supremely crafted for web agencies, freelancer, creative agency, photography, 
+                        digital media design company who want to showcase their portfolio in a stylish minimal way.
                     </h6>
                     <button type="button" class="mt-4 btn btn-outline-light">          
           Discover More <i class="bi bi-arrow-right"></i>
@@ -110,10 +121,9 @@
                     Lorem ipsum dolor sit amet consectetur architecto magni, dicta maxime laborum
                 </p>
             </div>
-
-            <!----------------------------------------------------------------------------
-        START SECTION-2 THE SERVICES  
------------------------------------------------------------------------------->
+            <!-- =============================================================================
+                START SECTION-2 THE SERVICES 
+            ================================================================================= -->
 
             <div class="row mt-5">
                 <div class="col-md-6 col-lg-4">
@@ -213,21 +223,22 @@
             <div class="row mt-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="portfolio shadow">
-                        <a href="#" target="__blank"></a>
+                        <a href="#" target="_blank"></a>
                         <img src='public/images/portfolio/portfolio-1.jpg' alt='portfolio 1' class="img-fluid">
                         <div class="portfolio__overlay">
                             <h4>Product Design</h4>
                             <div class="portfolio__body">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus vero.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, accusamus 
+                                    vero.</p>
                                 <button type="button" class="btn btn-light mt-2">
-             <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
+                                <i class="bi bi-box-arrow-in-up-right"></i> Project Link</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="portfolio shadow">
-                        <a href="#" target="__blank"></a>
+                        <a href="#" target="_blank"></a>
                         <img src='public/images/portfolio/portfolio-2.jpg' alt='portfolio 2' class="img-fluid">
                         <div class="portfolio__overlay">
                             <h4>Graphic Design</h4>
@@ -241,7 +252,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="portfolio shadow">
-                        <a href="#" target="__blank"></a>
+                        <a href="#" target="_blank"></a>
                         <img src='public/images/portfolio/portfolio-3.jpg' alt='portfolio 3' class="img-fluid">
                         <div class="portfolio__overlay">
                             <h4>Brand Identity</h4>
@@ -255,7 +266,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="portfolio shadow">
-                        <a href="#" target="__blank"></a>
+                        <a href="#" target="_blank"></a>
                         <img src='public/images/portfolio/portfolio-4.jpg' alt='portfolio 4' class="img-fluid">
                         <div class="portfolio__overlay">
                             <h4>Web Design</h4>
@@ -269,7 +280,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="portfolio shadow">
-                        <a href="#" target="__blank"></a>
+                        <a href="#" target="_blank"></a>
                         <img src='public/images/portfolio/portfolio-5.jpg' alt='portfolio 5' class="img-fluid">
                         <div class="portfolio__overlay">
                             <h4>Web Development</h4>
@@ -283,7 +294,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="portfolio shadow">
-                        <a href="#" target="__blank"></a>
+                        <a href="#" target="_blank"></a>
                         <img src='public/images/portfolio/portfolio-6.jpg' alt='portfolio 6' class="img-fluid">
                         <div class="portfolio__overlay">
                             <h4>Marketing strategy</h4>
@@ -301,33 +312,49 @@
     <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                        START SECTION 4 - WATCH VIDEO  
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-    <section class="section-with-video" id="youtube">
+    <section class="section-with-video" id="whoweare">
         <div class="container">
             <div class="row text-white text-center mb-3">
                 <div class="col-lg-12">
-                    <div class="content">
-                        <h3 class="fw-bold">Watch our intro video</h3>
+                    <div class="content pb-5">
+                        <h3 class="fw-bold">We Believe in a Smarter, More Connected Future</h3>
                         <div class="heading-line mx-auto"></div>
-                        <p class="p-3 d-sm-block">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-ntop">
+
+    <main class="section-ntop">
         <div class="container">
+            <div class="row text-white text-center mb-3">
+                <div class="col-lg-12">
+                    <div class="content">
+                        <p class="p-3 d-sm-block">
+                            At Folioz, we're not just building technology; we're building solutions for 
+                            the challenges of tomorrow. Founded in [Year] on the belief that 
+                            [Core Belief, e.g., "data should work for people, not the other way around," 
+                            "software can be both powerful and beautifully simple"], we are a dedicated team of 
+                            innovators, engineers, and dreamers on a mission to [Your Core Mission, e.g., 
+                            "democratize artificial intelligence," "redefine the digital workspace"].
+                        We see a world where technology fades into the background, empowering people and businesses to achieve 
+                            more, faster, and with greater purpose.</p>
+
+                           
+                     
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-12 col-lg-12 mt-5">
                     <div class="video-box bg-primary shadow">
                         <img class="img-fluid" src="public/images/youtube-4.png" alt="Vaxa code youtube channel">
                         <a class="glightbox position-absolute top-50 start-50 translate-middle" href="#">
                             <span class="video-button">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                  </svg>                     
-                </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                                </svg>                     
+                                </span>
                             <span class="border-animation border-1"></span>
                             <span class="border-animation border-2"></span>
                         </a>
@@ -335,20 +362,20 @@
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
 
-    <!--------------------------------------------------------------------------------------------------
+    <!--=============================================================================================
                       SECTION 5 - OUR TEAM 
------------------------------------------------------------------------------------------------------>
-    <section class="team-section">
+============================================================================================= -->
+    <section class="team-section" id="team">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="topic-intro">
                         <h6>Expert Team</h6>
                     </div>
-                    <h3 class="display-3 fw-bold text-capitalize" id="team">Meet Our Team</h3>
+                    <h3 class="display-3 fw-bold text-capitalize">Meet Our Team</h3>
                     <div class="heading-line mx-auto"></div>
                     <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
@@ -358,7 +385,7 @@
             <div class="row text-center mt-5">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="team">
-                        <a href="#" aria-labelledby="person1"></a>
+                        <a href="#"></a>
                         <img src='public/images/team/team-1.jpg' alt='our team' class="img-fluid">
                         <div class="team__overlay">
                             <h5>Meru Mwangaza</h5>
@@ -370,7 +397,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="team">
-                        <a href="#" aria-labelledby="person1"></a>
+                        <a href="#"></a>
                         <img src='public/images/team/team-2.jpg' alt='our team' class="img-fluid">
                         <div class="team__overlay">
                             <h5>Ole mashamba</h5>
@@ -382,7 +409,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="team">
-                        <a href="#" aria-labelledby="person1"></a>
+                        <a href="#"></a>
                         <img src='public/images/team/team-3.jpg' alt='our team' class="img-fluid">
                         <div class="team__overlay">
                             <h5>Ndugu Zanguni</h5>
@@ -394,7 +421,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="team">
-                        <a href="#" aria-labelledby="person1"></a>
+                        <a href="#"></a>
                         <img src='public/images/team/team-4.jpg' alt='our team' class="img-fluid">
                         <div class="team__overlay">
                             <h5>Quickmart Ivanka</h5>
@@ -408,9 +435,9 @@
         </div>
     </section>
 
-    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                       START SECTION 6 - TESTIMONIALS  
-///////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!-- ==================================================================================                   
+     START SECTION 6 - TESTIMONIALS  
+==================================================================================-->
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="row text-center">
@@ -436,10 +463,10 @@
                                         <i class="bi bi-chat-quote" aria-hidden="true"></i>
                                         <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
                                         </p>
-                                        <br>
+
                                         <div class="d-flex justify-content-evenly">
                                             <div class="client-img">
-                                                <img src="public/images/testimonials/client-1.jpg" class="rounded-circle img-fluid">
+                                                <img src="public/images/testimonials/client-1.jpg" alt="testimonial img" class="rounded-circle img-fluid">
                                             </div>
                                             <div class="name mt-2">
                                                 <h5>Jack Mathews</h5>
@@ -453,10 +480,10 @@
                                         <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
                                         <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
                                         </p>
-                                        <br>
+
                                         <div class="d-flex justify-content-evenly">
                                             <div class="client-img">
-                                                <img src="public/images/testimonials/client-3.jpg" class="rounded-circle img-fluid">
+                                                <img src="public/images/testimonials/client-3.jpg" alt="testimonial img" class="rounded-circle img-fluid">
                                             </div>
                                             <div class="name mt-2">
                                                 <h5>Esther Zawadi</h5>
@@ -470,10 +497,10 @@
                                         <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
                                         <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
                                         </p>
-                                        <br>
+
                                         <div class="d-flex justify-content-evenly">
                                             <div class="client-img">
-                                                <img src="public/images/testimonials/client-1.jpg" class="rounded-circle img-fluid">
+                                                <img src="public/images/testimonials/client-1.jpg" alt="testimonial img" class="rounded-circle img-fluid">
                                             </div>
                                             <div class="name mt-2">
                                                 <h5>Uhuru Kenyatta</h5>
@@ -491,10 +518,10 @@
                                         <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
                                         <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
                                         </p>
-                                        <br>
+
                                         <div class="d-flex justify-content-evenly">
                                             <div class="client-img">
-                                                <img src="public/images/testimonials/client-2.jpg" class="rounded-circle img-fluid">
+                                                <img src="public/images/testimonials/client-2.jpg" alt="testimonial img" class="rounded-circle img-fluid">
                                             </div>
                                             <div class="name mt-2">
                                                 <h5>Mary Kilobi</h5>
@@ -508,10 +535,10 @@
                                         <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
                                         <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
                                         </p>
-                                        <br>
+
                                         <div class="d-flex justify-content-evenly">
                                             <div class="client-img">
-                                                <img src="public/images/testimonials/client-5.jpg" class="rounded-circle img-fluid">
+                                                <img src="public/images/testimonials/client-5.jpg" alt="testimonial img" class="rounded-circle img-fluid">
                                             </div>
                                             <div class="name mt-2">
                                                 <h5>Dr. Nyikal Miwani</h5>
@@ -525,10 +552,10 @@
                                         <i class="bi bi-chat-left-quote" aria-hidden="true"></i>
                                         <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, culpa eius! Ea voluptatibus mollitia hic eos.
                                         </p>
-                                        <br>
+
                                         <div class="d-flex justify-content-evenly">
                                             <div class="client-img">
-                                                <img src="public/images/testimonials/client-3.jpg" class="rounded-circle img-fluid">
+                                                <img src="public/images/testimonials/client-3.jpg" alt="testimonial img" class="rounded-circle img-fluid">
                                             </div>
                                             <div class="name mt-2">
                                                 <h5>Esther Zawadi</h5>
@@ -551,10 +578,9 @@
         </div>
     </section>
 
-    <!------------------------------------------------------------------------------------------- 
+    <!--======================================================================================== 
             SECTION 7 - FAQ
------------------------------------------------------------------------------------------------->
-
+    ===========================================================================================-->
     <section class="faq-section" id="faq">
         <div class="text-center mb-5">
             <div class="topic-intro">
@@ -566,16 +592,13 @@
         </div>
         <div class="container">
             <div class="row">
-                <!-- ==================================
-START THE 1ST COLUMN  COL-MD-7
-======================================-->
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item shadow mt-3">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-           do you offer discounts
-          </button>
+                                    do you offer discounts
+                                </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -586,8 +609,8 @@ START THE 1ST COLUMN  COL-MD-7
                         <div class="accordion-item shadow mt-3">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          How long will the free trial last?
-        </button>
+                                    How long will the free trial last?
+                                </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -600,8 +623,8 @@ START THE 1ST COLUMN  COL-MD-7
                         <div class="accordion-item shadow mt-3">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          do I have to pay again after trial
-        </button>
+                                    do I have to pay again after trial
+                                </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -613,12 +636,12 @@ START THE 1ST COLUMN  COL-MD-7
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion">
                         <div class="accordion-item shadow mt-3">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            How can I create an Account
-          </button>
+                                    How can I create an Account
+                                </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -629,8 +652,8 @@ START THE 1ST COLUMN  COL-MD-7
                         <div class="accordion-item shadow mt-3">
                             <h2 class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Can I be refunded if am not satisfied
-              </button>
+                                    Can I be refunded if am not satisfied
+                                </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -643,8 +666,8 @@ START THE 1ST COLUMN  COL-MD-7
                         <div class="accordion-item shadow mt-3">
                             <h2 class="accordion-header" id="headingSix">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                Do you offer delivery services?
-              </button>
+                                    Do you offer delivery services?
+                                </button>
                             </h2>
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
@@ -657,9 +680,13 @@ START THE 1ST COLUMN  COL-MD-7
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <!-- SECTION 8 - CTA  -->
+
+    <!-- ==========================================================================
+                SECTION 8 - CTA  
+     ================================================================================== -->
     <section class="get-started" id="contact">
         <div class="container">
             <div class="row">
@@ -707,7 +734,7 @@ START THE 1ST COLUMN  COL-MD-7
                             </div>
                             <div class="col-md-12">
                                 <select class="form-select" required aria-label="Default select example">
-                                    <option selected>Country</option>
+                                    <option value="">Select Your Country</option>
                                     <option value="1">Angola </option>
                                     <option value="1">Algeria</option>
                                     <option value="1">Belgium </option>
@@ -725,7 +752,8 @@ START THE 1ST COLUMN  COL-MD-7
                             </div>
 
                             <div class="col-12">
-                                <textarea name="message" required placeholder="Message" id="message" rows="8" class="shadow form-control">
+
+                                <textarea name="message" required placeholder="Message" id="message" rows="10" class="shadow form-control">
                             </textarea>
                             </div>
                             <!-- start the submit button textarea -->
@@ -750,41 +778,36 @@ START THE 1ST COLUMN  COL-MD-7
                          START SECTION 9 - THE FOOTER  
 ///////////////////////////////////////////////////////////////////////////////////////////////-->
     <!-- Footer -->
-    <footer class="footer" id="contact">
-
-        <!--===================================================================
-                     START FOOTER SOCIAL MEDIA SECTION
-=====================================================================-->
-
+    <footer class="footer">
         <div class="footer-sm" style="background-color: #212121;">
             <div class="container">
                 <div class="row py-4 d-flex align-items-center">
                     <!-- Grid row-->
                     <div class="col-12 col-md-6 col-lg-5 mb-4 mb-md-0">
-                        <!-- Grid column -->
+
                         <h6 class="mb-0 text-center">Connect with us on social Media!</h6>
                     </div>
                     <div class="col-12 col-md-6 col-lg-7 text-center">
                         <a href="#">
                             <i class="bi bi-facebook" title="facebook"></i></a>
-                        <!-- Facebook -->
+
                         <a href="#">
                             <i class="bi bi-twitter" title="twitter"></i></a>
-                        <!-- Twitter -->
+
                         <a href="#">
                             <i class="bi bi-tiktok" title="tiktok"></i></a>
-                        <!-- Google +-->
+
                         <a href="#">
                             <i class="bi bi-snapchat" title="tiktok"></i></a>
-                        <!-- Google +-->
+
                         <a href="#">
                             <i class="bi bi-linkedin" title="Linkedin"></i></a>
-                        <!--Linkedin -->
+
                         <a href="#">
                             <i class="bi bi-instagram" title="instagram"></i></a>
-                        <!--Instagram-->
+
                     </div>
-                    <!-- Grid column -->
+
                 </div>
                 <!-- Grid row-->
             </div>
@@ -797,15 +820,13 @@ START THE 1ST COLUMN  COL-MD-7
             <div class="row mt-3 pb-3 justify-content-center">
                 <!-- Grid row -->
                 <div class="col-12 col-sm-6 col-lg-6 mx-auto mb-4">
-                    <!-- Grid column -->
+
                     <!-- Content -->
                     <div class="logo mb-5 pt-3">
                         <img src="public/images/logo-footer.png" alt="logo footer">
                     </div>
                     <p class="text-left">We are a creative digital agency offering crreative solutions around the world. Here you can use rows and columns to organize your footer content. Loremsit amet, consectetur adipisicing elit.</p>
                 </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
                 <div class="col-12 col-sm-6 col-lg-2 mb-4">
                     <!-- Links -->
                     <h5 class="text-capitalize font-weight-bold">Services</h5>
@@ -817,9 +838,7 @@ START THE 1ST COLUMN  COL-MD-7
                         <li><a href="#">insights</a></li>
                     </ul>
                 </div>
-                <!-- Grid column -->
 
-                <!-- Grid column -->
                 <div class="col-12 col-sm-6 col-lg-2 mx-auto mb-4">
                     <!-- Links -->
                     <h5 class="text-capitalize font-weight-bold">Useful links</h5>
@@ -828,10 +847,8 @@ START THE 1ST COLUMN  COL-MD-7
                         <li><a href="#">Your Account</a></li>
                         <li><a href="#">pricing</a></li>
                         <li><a href="#">documentation</a></li>
+                    </ul>
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
                 <div class="col-12 col-sm-6 col-lg-2 mx-auto mb-4">
                     <!-- Links -->
                     <h5 class="text-capitalize font-weight-bold">support</h5>
@@ -842,7 +859,6 @@ START THE 1ST COLUMN  COL-MD-7
                         <li><a href="#">cloud hosting</a></li>
                     </ul>
                 </div>
-                <!-- Grid column -->
             </div>
             <!-- Grid row -->
         </div>
@@ -877,8 +893,9 @@ START THE 1ST COLUMN  COL-MD-7
     </a>
 
     <script src="public/js/glightbox.min.js"></script>
+    <script src="public/js/navbar.js"></script>
 
-    <script type="text/javascript">
+    <script>
         const lightbox = GLightbox({
             'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
             'type': 'video',
@@ -887,8 +904,8 @@ START THE 1ST COLUMN  COL-MD-7
             'autoPlayVideos': 'true',
         });
     </script>
-    <script src="/public//js//back-to-top.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/back-to-top.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="public/js/bootstrap.min.js"></script>
 </body>
 

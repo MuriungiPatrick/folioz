@@ -1,104 +1,148 @@
-@keyframes pulse-border {
-    0% {
-        transform: scale(1);
-        opacity: 0;
-    }
-    20% {
-        transform: scale(1.2);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1.6);
-        opacity: 0;
-    }
-}
+/* 
+    =============================================
+    TEMPLATE: Folioz - Professional Portfolio landing page Template 
+    AUTHOR: Patrick Muriungi
+    AUTHOR URL: https://codewithpatrick.online
+    VERSION: 1.0
+    DATE: NOV 13 2025
+    DESCRIPTION: Clean, modern portfolio template with responsive design
+    =============================================
+*/
 
-@keyframes zoom {
-    0% {
-        transform: translate(2);
-    }
-    100% {
-        transform: translate(1);
-    }
-}
 
-.topic-intro {
-    text-transform: capitalize;
-}
+/*  SECTIONS
+    1. - ========= NAVBAR
+    2. - ========= SERVICES
+    3. - ========= LATEST WORK
+    4. - ========= YOUTUBE
+    4. - ========= TEAM
+    5. - ========= TESTIMONIALS
+    6. - ========= FAQ
+    7. - ========= CONTACT
+*/
 
-.topic-intro :is(h5, h6) {
-    color: #7D56FD;
-    font-weight: 600;
-}
+
+/* ===============================================================
+        NAVBAR SECTION
+=====================================================================*/
 
 .navbar {
     background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.navbar .navbar-brand {
-    font-weight: 600;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    color: #7D56FD;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    margin-right: 10px;
     color: #7D56FD;
 }
 
-.navbar li {
-    padding: 0 0.7rem;
+.nav-menu {
+    display: flex;
+    list-style: none;
 }
 
-.navbar li a {
-    color: #7D56FD !important;
+.nav-item {
+    margin-left: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #7D56FD;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
     text-transform: capitalize;
-    font-weight: 600;
     transition: all 0.3s;
 }
 
-.navbar li a:hover {
-    color: #081828 !important;
+.nav-link i {
+    margin-right: 8px;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    background-color: #7D56FD;
+    color: white;
+    padding: 2px;
     transform: translateY(6px);
     transition: all 0.3s;
-    border-bottom: 2px solid #081828;
 }
 
-.navbar .line {
-    fill: none;
-    stroke: #7D56FD;
-    stroke-width: 6;
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+.nav-link.active {
+    padding: 2px 5px;
+    border-bottom: 3px solid #7D56FD;
+    /* background-color: #7D56FD; */
+    /* color: #fff; */
 }
 
-.navbar .x1 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #7D56FD;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.navbar .x2 {
-    stroke-dasharray: 60 60;
-    stroke-width: 6;
+
+/* Mobile Menu Styles */
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        color: #7D56FD;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 2rem 0;
+        z-index: 999;
+        font-weight: 700;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+    .nav-link {
+        justify-content: center;
+        padding: 1rem;
+    }
 }
 
-.navbar .x3 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
-}
-
-.navbar .opened .x1 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
-}
-
-.navbar .opened .x2 {
-    stroke-dasharray: 1 60;
-    stroke-dashoffset: -30;
-    stroke-width: 6;
-}
-
-.navbar .opened .x3 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
-}
-
-.intro-section {
+.hero-section {
     background-color: #081828;
     padding: 8rem 0;
     width: 100%;
@@ -112,6 +156,11 @@
 .mb-6 {
     margin-bottom: 5rem;
 }
+
+
+/* =======================================================================
+        SERVICES SECTION 
+===========================================================================*/
 
 .services-section {
     background-color: #fff;
@@ -193,6 +242,11 @@
     color: #fff;
 }
 
+
+/* =======================================================================
+        OUR PORTFOLIO SECTION 
+===========================================================================*/
+
 .portfolio-section {
     padding: 4rem 0;
 }
@@ -267,13 +321,13 @@
     margin-top: 8rem;
     margin-bottom: 8rem;
     padding-top: 5rem;
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
 }
 
 .section-ntop {
     position: relative;
     height: 100%;
-    margin-top: -20rem;
+    margin-top: -30rem;
     margin-bottom: 2rem;
 }
 
@@ -333,6 +387,44 @@
 .section-ntop .video-box .border-2 {
     animation-delay: 1s;
 }
+
+@keyframes pulse-border {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    20% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: translate(2);
+    }
+    100% {
+        transform: translate(1);
+    }
+}
+
+.topic-intro {
+    text-transform: capitalize;
+}
+
+.topic-intro :is(h5, h6) {
+    color: #7D56FD;
+    font-weight: 600;
+}
+
+
+/* =======================================================================
+        OUR TEAM SECTION
+===========================================================================*/
 
 .team-section {
     position: relative;
@@ -405,6 +497,11 @@
     text-transform: capitalize;
 }
 
+
+/* =======================================================================
+       TESTIMONIALS SECTION
+===========================================================================*/
+
 .testimonials {
     position: relative;
     padding: 5rem 0;
@@ -458,6 +555,11 @@
     margin-bottom: -2rem !important;
 }
 
+
+/* =======================================================================
+        FAQ SECTION
+===========================================================================*/
+
 .faq-section {
     position: relative;
     padding: 5rem 0;
@@ -479,6 +581,11 @@
         text-align: start;
     }
 }
+
+
+/* =======================================================================
+       FOOTER SECTION
+===========================================================================*/
 
 .footer {
     background-color: #212529;
